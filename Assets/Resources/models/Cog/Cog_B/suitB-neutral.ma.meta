@@ -1,0 +1,359 @@
+fileFormatVersion: 2
+guid: 7a209598bc287134aa7d213cfef150b9
+timeCreated: 1472264400
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: arms
+    100002: cons_Lwrist
+    100004: CONSlegL
+    100006: CONSlegR
+    100008: hands
+    100010: jnt1_2
+    100012: jnt2_2
+    100014: jnt3_2
+    100016: jnt4_1
+    100018: jnt8_1
+    100020: jnt9_2
+    100022: joint_attachMeter
+    100024: joint_head
+    100026: joint_Lhold
+    100028: joint_nameTag
+    100030: joint_Rhold
+    100032: joint_shadow
+    100034: legs
+    100036: Lh_1
+    100038: Lh_2
+    100040: Lh_arm
+    100042: Lh_index1
+    100044: Lh_index2
+    100046: Lh_thumb1
+    100048: Lh_thumb2
+    100050: Lh_wrist
+    100052: Luparm
+    100054: Rforearm
+    100056: Rh_1
+    100058: Rh_2
+    100060: Rh_arm
+    100062: Rh_index1
+    100064: Rh_index2
+    100066: Rh_thumb1
+    100068: Rh_thumb2
+    100070: Rh_wrist
+    100072: Rsleeve_trans
+    100074: Ruparm
+    100076: scale_jnt1_1
+    100078: scale_jnt2_1
+    100080: scale_jnt3_1
+    100082: scale_jnt9_1
+    100084: shoulderL1
+    100086: shoulderR1
+    100088: suitB
+    100090: suitB 1
+    100092: //RootNode
+    100094: to_ballL
+    100096: to_ballR
+    100098: to_body1
+    100100: to_coatl
+    100102: to_coatLBack
+    100104: to_coatLFront
+    100106: to_coatr
+    100108: to_coatRBack
+    100110: to_coatRFront
+    100112: to_head
+    100114: to_legL
+    100116: to_legR
+    100118: to_MAIN
+    100120: to_SHOULDER
+    100122: torso
+    400000: arms
+    400002: cons_Lwrist
+    400004: CONSlegL
+    400006: CONSlegR
+    400008: hands
+    400010: jnt1_2
+    400012: jnt2_2
+    400014: jnt3_2
+    400016: jnt4_1
+    400018: jnt8_1
+    400020: jnt9_2
+    400022: joint_attachMeter
+    400024: joint_head
+    400026: joint_Lhold
+    400028: joint_nameTag
+    400030: joint_Rhold
+    400032: joint_shadow
+    400034: legs
+    400036: Lh_1
+    400038: Lh_2
+    400040: Lh_arm
+    400042: Lh_index1
+    400044: Lh_index2
+    400046: Lh_thumb1
+    400048: Lh_thumb2
+    400050: Lh_wrist
+    400052: Luparm
+    400054: Rforearm
+    400056: Rh_1
+    400058: Rh_2
+    400060: Rh_arm
+    400062: Rh_index1
+    400064: Rh_index2
+    400066: Rh_thumb1
+    400068: Rh_thumb2
+    400070: Rh_wrist
+    400072: Rsleeve_trans
+    400074: Ruparm
+    400076: scale_jnt1_1
+    400078: scale_jnt2_1
+    400080: scale_jnt3_1
+    400082: scale_jnt9_1
+    400084: shoulderL1
+    400086: shoulderR1
+    400088: suitB
+    400090: suitB 1
+    400092: //RootNode
+    400094: to_ballL
+    400096: to_ballR
+    400098: to_body1
+    400100: to_coatl
+    400102: to_coatLBack
+    400104: to_coatLFront
+    400106: to_coatr
+    400108: to_coatRBack
+    400110: to_coatRFront
+    400112: to_head
+    400114: to_legL
+    400116: to_legR
+    400118: to_MAIN
+    400120: to_SHOULDER
+    400122: torso
+    4300000: suitB
+    4300002: legs
+    4300004: hands
+    4300006: torso
+    4300008: arms
+    7400000: suitB-neutral
+    9500000: //RootNode
+    13700000: arms
+    13700002: hands
+    13700004: legs
+    13700006: suitB
+    13700008: torso
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: suitB-neutral
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 46
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: suitB
+        weight: 1
+      - path: suitB/arms
+        weight: 1
+      - path: suitB/hands
+        weight: 1
+      - path: suitB/legs
+        weight: 1
+      - path: suitB/suitB 1
+        weight: 1
+      - path: suitB/suitB 1/cons_Lwrist
+        weight: 1
+      - path: suitB/suitB 1/CONSlegL
+        weight: 1
+      - path: suitB/suitB 1/CONSlegL/to_coatLBack
+        weight: 1
+      - path: suitB/suitB 1/CONSlegL/to_coatLFront
+        weight: 1
+      - path: suitB/suitB 1/CONSlegR
+        weight: 1
+      - path: suitB/suitB 1/CONSlegR/to_coatRBack
+        weight: 1
+      - path: suitB/suitB 1/CONSlegR/to_coatRFront
+        weight: 1
+      - path: suitB/suitB 1/jnt1_2
+        weight: 1
+      - path: suitB/suitB 1/jnt2_2
+        weight: 1
+      - path: suitB/suitB 1/jnt3_2
+        weight: 1
+      - path: suitB/suitB 1/jnt4_1
+        weight: 1
+      - path: suitB/suitB 1/jnt8_1
+        weight: 1
+      - path: suitB/suitB 1/jnt9_2
+        weight: 1
+      - path: suitB/suitB 1/jnt9_2/Rforearm
+        weight: 1
+      - path: suitB/suitB 1/joint_head
+        weight: 1
+      - path: suitB/suitB 1/joint_Lhold
+        weight: 1
+      - path: suitB/suitB 1/joint_nameTag
+        weight: 1
+      - path: suitB/suitB 1/joint_Rhold
+        weight: 1
+      - path: suitB/suitB 1/joint_shadow
+        weight: 1
+      - path: suitB/suitB 1/Lh_wrist
+        weight: 1
+      - path: suitB/suitB 1/Lh_wrist/Lh_1
+        weight: 1
+      - path: suitB/suitB 1/Lh_wrist/Lh_1/Lh_2
+        weight: 1
+      - path: suitB/suitB 1/Lh_wrist/Lh_arm
+        weight: 1
+      - path: suitB/suitB 1/Lh_wrist/Lh_index1
+        weight: 1
+      - path: suitB/suitB 1/Lh_wrist/Lh_index1/Lh_index2
+        weight: 1
+      - path: suitB/suitB 1/Lh_wrist/Lh_thumb1
+        weight: 1
+      - path: suitB/suitB 1/Lh_wrist/Lh_thumb1/Lh_thumb2
+        weight: 1
+      - path: suitB/suitB 1/Luparm
+        weight: 1
+      - path: suitB/suitB 1/Rh_wrist
+        weight: 1
+      - path: suitB/suitB 1/Rh_wrist/Rh_1
+        weight: 1
+      - path: suitB/suitB 1/Rh_wrist/Rh_1/Rh_2
+        weight: 1
+      - path: suitB/suitB 1/Rh_wrist/Rh_arm
+        weight: 1
+      - path: suitB/suitB 1/Rh_wrist/Rh_index1
+        weight: 1
+      - path: suitB/suitB 1/Rh_wrist/Rh_index1/Rh_index2
+        weight: 1
+      - path: suitB/suitB 1/Rh_wrist/Rh_thumb1
+        weight: 1
+      - path: suitB/suitB 1/Rh_wrist/Rh_thumb1/Rh_thumb2
+        weight: 1
+      - path: suitB/suitB 1/Rsleeve_trans
+        weight: 1
+      - path: suitB/suitB 1/Ruparm
+        weight: 1
+      - path: suitB/suitB 1/scale_jnt1_1
+        weight: 1
+      - path: suitB/suitB 1/scale_jnt2_1
+        weight: 1
+      - path: suitB/suitB 1/scale_jnt3_1
+        weight: 1
+      - path: suitB/suitB 1/scale_jnt9_1
+        weight: 1
+      - path: suitB/suitB 1/to_coatl
+        weight: 1
+      - path: suitB/suitB 1/to_coatr
+        weight: 1
+      - path: suitB/suitB 1/to_legL
+        weight: 1
+      - path: suitB/suitB 1/to_legL/to_ballL
+        weight: 1
+      - path: suitB/suitB 1/to_legR
+        weight: 1
+      - path: suitB/suitB 1/to_legR/to_ballR
+        weight: 1
+      - path: suitB/suitB 1/to_MAIN
+        weight: 1
+      - path: suitB/suitB 1/to_MAIN/to_body1
+        weight: 1
+      - path: suitB/suitB 1/to_MAIN/to_body1/joint_attachMeter
+        weight: 1
+      - path: suitB/suitB 1/to_MAIN/to_body1/to_SHOULDER
+        weight: 1
+      - path: suitB/suitB 1/to_MAIN/to_body1/to_SHOULDER/shoulderL1
+        weight: 1
+      - path: suitB/suitB 1/to_MAIN/to_body1/to_SHOULDER/shoulderR1
+        weight: 1
+      - path: suitB/suitB 1/to_MAIN/to_body1/to_SHOULDER/to_head
+        weight: 1
+      - path: suitB/torso
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,399 @@
+fileFormatVersion: 2
+guid: e9faa71fbf52a0d48a079d3cd0b075d9
+timeCreated: 1471630650
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: arms
+    100002: //RootNode
+    100004: cons_Rwrist
+    100006: CONSlegL
+    100008: CONSlegR
+    100010: hands
+    100012: jnt13_1
+    100014: jnt13_2
+    100016: jnt14_1
+    100018: jnt14_2
+    100020: jnt23_1
+    100022: jnt24_1
+    100024: jnt26_2
+    100026: jnt27_2
+    100028: joint_attachMeter
+    100030: joint_head
+    100032: joint_Lhold
+    100034: joint_nameTag
+    100036: joint_Rhold
+    100038: joint_shadow
+    100040: legs
+    100042: Lforearm
+    100044: Lh_1
+    100046: Lh_2
+    100048: Lh_arm
+    100050: Lh_index1
+    100052: Lh_index2
+    100054: Lh_thumb1
+    100056: Lh_thumb2
+    100058: Lh_wrist
+    100060: Lshoulder_arm
+    100062: Lsleeve_trans
+    100064: Luparm
+    100066: LupVct
+    100068: null4
+    100070: null5
+    100072: Rforearm
+    100074: Rh_5
+    100076: Rh_6
+    100078: Rh_arm
+    100080: Rh_index5
+    100082: Rh_index6
+    100084: Rh_thumb7
+    100086: Rh_thumb8
+    100088: Rh_wrist
+    100090: Rshoulder_arm
+    100092: Rsleeve_trans
+    100094: Ruparm
+    100096: RupVct
+    100098: scale_jnt26_1
+    100100: scale_jnt27_1
+    100102: shoulderL1
+    100104: shoulderR1
+    100106: suitC
+    100108: suitC 1
+    100110: suitC_mod_egg
+    100112: suitC_neutral_egg
+    100114: to_ballL
+    100116: to_ballR
+    100118: to_body1
+    100120: to_coatl
+    100122: to_coatLBack
+    100124: to_coatLFront
+    100126: to_coatr
+    100128: to_coatRBack
+    100130: to_coatRFront
+    100132: to_head
+    100134: to_legL
+    100136: to_legR
+    100138: to_MAIN
+    100140: to_SHOULDER
+    100142: torso
+    400000: arms
+    400002: //RootNode
+    400004: cons_Rwrist
+    400006: CONSlegL
+    400008: CONSlegR
+    400010: hands
+    400012: jnt13_1
+    400014: jnt13_2
+    400016: jnt14_1
+    400018: jnt14_2
+    400020: jnt23_1
+    400022: jnt24_1
+    400024: jnt26_2
+    400026: jnt27_2
+    400028: joint_attachMeter
+    400030: joint_head
+    400032: joint_Lhold
+    400034: joint_nameTag
+    400036: joint_Rhold
+    400038: joint_shadow
+    400040: legs
+    400042: Lforearm
+    400044: Lh_1
+    400046: Lh_2
+    400048: Lh_arm
+    400050: Lh_index1
+    400052: Lh_index2
+    400054: Lh_thumb1
+    400056: Lh_thumb2
+    400058: Lh_wrist
+    400060: Lshoulder_arm
+    400062: Lsleeve_trans
+    400064: Luparm
+    400066: LupVct
+    400068: null4
+    400070: null5
+    400072: Rforearm
+    400074: Rh_5
+    400076: Rh_6
+    400078: Rh_arm
+    400080: Rh_index5
+    400082: Rh_index6
+    400084: Rh_thumb7
+    400086: Rh_thumb8
+    400088: Rh_wrist
+    400090: Rshoulder_arm
+    400092: Rsleeve_trans
+    400094: Ruparm
+    400096: RupVct
+    400098: scale_jnt26_1
+    400100: scale_jnt27_1
+    400102: shoulderL1
+    400104: shoulderR1
+    400106: suitC
+    400108: suitC 1
+    400110: suitC_mod_egg
+    400112: suitC_neutral_egg
+    400114: to_ballL
+    400116: to_ballR
+    400118: to_body1
+    400120: to_coatl
+    400122: to_coatLBack
+    400124: to_coatLFront
+    400126: to_coatr
+    400128: to_coatRBack
+    400130: to_coatRFront
+    400132: to_head
+    400134: to_legL
+    400136: to_legR
+    400138: to_MAIN
+    400140: to_SHOULDER
+    400142: torso
+    4300000: suitC
+    4300002: legs
+    4300004: hands
+    4300006: torso
+    4300008: arms
+    7400000: Cog_C_Neutral
+    9500000: //RootNode
+    13700000: arms
+    13700002: hands
+    13700004: legs
+    13700006: suitC
+    13700008: torso
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Cog_C_Neutral
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 46
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: suitC_mod_egg
+        weight: 1
+      - path: suitC_mod_egg/suitC
+        weight: 1
+      - path: suitC_mod_egg/suitC/arms
+        weight: 1
+      - path: suitC_mod_egg/suitC/hands
+        weight: 1
+      - path: suitC_mod_egg/suitC/legs
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/CONSlegL
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/CONSlegL/to_coatLBack
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/CONSlegL/to_coatLFront
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/CONSlegR
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/CONSlegR/to_coatRBack
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/CONSlegR/to_coatRFront
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/jnt13_1
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/jnt13_1/jnt13_2
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/jnt13_1/to_coatr
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/jnt14_1
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/jnt14_1/jnt14_2
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/jnt14_1/to_coatl
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/jnt26_2
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/jnt26_2/Lforearm
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/jnt27_2
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/jnt27_2/Rforearm
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/joint_head
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/joint_Lhold
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/joint_nameTag
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/joint_Rhold
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/joint_shadow
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/Lh_wrist
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/Lh_wrist/Lh_1
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/Lh_wrist/Lh_1/Lh_2
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/Lh_wrist/Lh_arm
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/Lh_wrist/Lh_index1
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/Lh_wrist/Lh_index1/Lh_index2
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/Lh_wrist/Lh_thumb1
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/Lh_wrist/Lh_thumb1/Lh_thumb2
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/Lh_wrist/LupVct
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/Lshoulder_arm
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/Lshoulder_arm/Lsleeve_trans
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/Lshoulder_arm/null5
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/Lshoulder_arm/null5/jnt23_1
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/Lshoulder_arm/scale_jnt26_1
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/Luparm
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/Rh_wrist
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/Rh_wrist/Rh_5
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/Rh_wrist/Rh_5/Rh_6
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/Rh_wrist/Rh_arm
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/Rh_wrist/Rh_index5
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/Rh_wrist/Rh_index5/Rh_index6
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/Rh_wrist/Rh_thumb7
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/Rh_wrist/Rh_thumb7/Rh_thumb8
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/Rh_wrist/RupVct
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/Rshoulder_arm
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/Rshoulder_arm/cons_Rwrist
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/Rshoulder_arm/cons_Rwrist/Rsleeve_trans
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/Rshoulder_arm/null4
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/Rshoulder_arm/null4/jnt24_1
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/Rshoulder_arm/scale_jnt27_1
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/Ruparm
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/to_legL
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/to_legL/to_ballL
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/to_legR
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/to_legR/to_ballR
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/to_MAIN
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/to_MAIN/to_body1
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/to_MAIN/to_body1/joint_attachMeter
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/to_MAIN/to_body1/to_SHOULDER
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/to_MAIN/to_body1/to_SHOULDER/shoulderL1
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/to_MAIN/to_body1/to_SHOULDER/shoulderR1
+        weight: 1
+      - path: suitC_mod_egg/suitC/suitC 1/to_MAIN/to_body1/to_SHOULDER/to_head
+        weight: 1
+      - path: suitC_mod_egg/suitC/torso
+        weight: 1
+      - path: suitC_neutral_egg
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

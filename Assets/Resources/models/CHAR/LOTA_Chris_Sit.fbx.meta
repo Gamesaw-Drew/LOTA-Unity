@@ -1,0 +1,1628 @@
+fileFormatVersion: 2
+guid: d800ef0208feca9428373917798d1a55
+timeCreated: 1476326061
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: 2nd-Layer
+    100002: 2nd-Layer_end
+    100004: Angry:Left
+    100006: Angry:Left_end
+    100008: Angry:Right
+    100010: Angry:Right_end
+    100012: Arm:Left:Lower
+    100014: Arm:Left:Upper
+    100016: Arm:Right:Lower
+    100018: Arm:Right:Upper
+    100020: Body
+    100022: Body.001
+    100024: Bone
+    100026: Bone 1
+    100028: Breast
+    100030: Breast_end
+    100032: Camera
+    100034: Char-Bones
+    100036: Char-Head
+    100038: Char-Mesh
+    100040: Char-Mesh.001
+    100042: Chest
+    100044: Custom-bone-Headsquish
+    100046: Custom-Bone-Shape:Feet
+    100048: Custom-Bone-Shape:Finger
+    100050: Custom-Bone-Shape:Hands
+    100052: Custom-Bone-Shape:Main
+    100054: Custom-Bone:Eyebrow
+    100056: Custom-Bone:Eyebrow:Bend
+    100058: Drivers:Controls
+    100060: Drivers:Design
+    100062: Eye-LimitLocation:Fix
+    100064: Eye-LimitLocation:Fix_end
+    100066: Eye-Move:Up
+    100068: Eye-Move:Up:Textured
+    100070: Eye-Move:Up:Textured_end
+    100072: Eye-Move:Up_end
+    100074: Eye-Size:2x2
+    100076: Eye-Size:2x2_end
+    100078: Eye-Size:Left
+    100080: Eye-Size:Left_end
+    100082: Eye-Size:Right
+    100084: Eye-Size:Right_end
+    100086: Eye:Left
+    100088: Eye:Left_end
+    100090: Eye:Right
+    100092: Eye:Right_end
+    100094: Eyebrow.L
+    100096: Eyebrow.R
+    100098: Eyebrow:Bend.L
+    100100: Eyebrow:Bend.L.001
+    100102: Eyebrow:Bend.L.001_end
+    100104: Eyebrow:Bend.L.002
+    100106: Eyebrow:Bend.L.002_end
+    100108: Eyebrow:Bend.L.003
+    100110: Eyebrow:Bend.L.003_end
+    100112: Eyebrow:Bend.L_end
+    100114: Eyebrow:Bend.R
+    100116: Eyebrow:Bend.R.001
+    100118: Eyebrow:Bend.R.001_end
+    100120: Eyebrow:Bend.R.002
+    100122: Eyebrow:Bend.R.002_end
+    100124: Eyebrow:Bend.R.003
+    100126: Eyebrow:Bend.R.003_end
+    100128: Eyebrow:Bend.R_end
+    100130: Eyebrow:Left
+    100132: Eyebrow:Left_end
+    100134: Eyebrow:Right
+    100136: Eyebrow:Right_end
+    100138: Eyebrows
+    100140: Eyebrows:Thickness
+    100142: Eyebrows:Thickness_end
+    100144: Eyebrows_end
+    100146: Eyelid:Lower:Left
+    100148: Eyelid:Lower:Left_end
+    100150: Eyelid:Lower:Right
+    100152: Eyelid:Lower:Right_end
+    100154: Eyelid:Upper:Left
+    100156: Eyelid:Upper:Left_end
+    100158: Eyelid:Upper:Right
+    100160: Eyelid:Upper:Right_end
+    100162: EyeTracking
+    100164: EyeTracking:Left
+    100166: EyeTracking:Left_end
+    100168: EyeTracking:Right
+    100170: EyeTracking:Right_end
+    100172: EyeTracking_end
+    100174: Face-Flat
+    100176: Face-Flat_end
+    100178: Facial-Controls
+    100180: Facial-Controls_end
+    100182: Feet:Left
+    100184: Feet:Left_end
+    100186: Feet:Right
+    100188: Feet:Right_end
+    100190: Finger:L:1
+    100192: Finger:L:1:L
+    100194: Finger:L:1:L_end
+    100196: Finger:L:1:U
+    100198: Finger:L:2
+    100200: Finger:L:2:L
+    100202: Finger:L:2:L_end
+    100204: Finger:L:2:U
+    100206: Finger:L:3
+    100208: Finger:L:3:L
+    100210: Finger:L:3:L_end
+    100212: Finger:L:3:U
+    100214: Finger:L:4
+    100216: Finger:L:4:L
+    100218: Finger:L:4:L_end
+    100220: Finger:L:4:U
+    100222: Finger:L:Tumb
+    100224: Finger:L:Tumb_end
+    100226: Finger:R:1
+    100228: Finger:R:1:L
+    100230: Finger:R:1:L_end
+    100232: Finger:R:1:U
+    100234: Finger:R:2
+    100236: Finger:R:2:L
+    100238: Finger:R:2:L_end
+    100240: Finger:R:2:U
+    100242: Finger:R:3
+    100244: Finger:R:3:L
+    100246: Finger:R:3:L_end
+    100248: Finger:R:3:U
+    100250: Finger:R:4
+    100252: Finger:R:4:L
+    100254: Finger:R:4:L_end
+    100256: Finger:R:4:U
+    100258: Finger:R:Tumb
+    100260: Finger:R:Tumb_end
+    100262: Hat
+    100264: Hat 1
+    100266: Hat_end
+    100268: Head
+    100270: Head-Squish
+    100272: Head-Squish_end
+    100274: IK-Arm:Left
+    100276: IK-Arm:Left 1
+    100278: IK-Arm:Left:Connected-to-Body
+    100280: IK-Arm:Left:Connected-to-Body_end
+    100282: IK-Arm:Left:Display-Bones
+    100284: IK-Arm:Left:Display-Bones_end
+    100286: IK-Arm:Left_end
+    100288: IK-Arm:Right
+    100290: IK-Arm:Right 1
+    100292: IK-Arm:Right:Connected-to-Body
+    100294: IK-Arm:Right:Connected-to-Body_end
+    100296: IK-Arm:Right:Display-Bones
+    100298: IK-Arm:Right:Display-Bones_end
+    100300: IK-Arm:Right_end
+    100302: IK-Arm:Rotation:Left
+    100304: IK-Arm:Rotation:Left_end
+    100306: IK-Arm:Rotation:Right
+    100308: IK-Arm:Rotation:Right_end
+    100310: IK-Display:Arm
+    100312: IK-Display:Arm_end
+    100314: IK-Display:Leg
+    100316: IK-Display:Leg_end
+    100318: IK-Leg:Left
+    100320: IK-Leg:Left 1
+    100322: IK-Leg:Left:Display-Bones
+    100324: IK-Leg:Left:Display-Bones_end
+    100326: IK-Leg:Left_end
+    100328: IK-Leg:Right
+    100330: IK-Leg:Right 1
+    100332: IK-leg:Right:Display-Bones
+    100334: IK-leg:Right:Display-Bones_end
+    100336: IK-Leg:Right_end
+    100338: IK-Leg:Rotation:Left
+    100340: IK-Leg:Rotation:Left_end
+    100342: IK-Leg:Rotation:Right
+    100344: IK-Leg:Rotation:Right_end
+    100346: Leg:Left:Lower
+    100348: Leg:Left:Upper
+    100350: Leg:Right:Lower
+    100352: Leg:Right:Upper
+    100354: //RootNode
+    100356: Mouth
+    100358: Mouth:Left
+    100360: Mouth:Left_end
+    100362: Mouth:Right
+    100364: Mouth:Right_end
+    100366: Mouth:Scared
+    100368: Mouth:Scared_end
+    100370: Mouth_end
+    100372: No-Fingers
+    100374: No-Fingers_end
+    100376: No-Head
+    100378: No-Head_end
+    100380: Outline
+    100382: Outline 1
+    100384: Outline.001
+    100386: Outline.001 1
+    100388: Outline.001_end
+    100390: Outline.001_end 1
+    100392: Outline.002
+    100394: Outline.002 1
+    100396: Outline.002_end
+    100398: Outline.002_end 1
+    100400: Outline.003
+    100402: Outline.003 1
+    100404: Outline.003_end
+    100406: Outline.003_end 1
+    100408: Outline.004
+    100410: Outline.004 1
+    100412: Outline.004_end
+    100414: Outline.004_end 1
+    100416: Outline.005
+    100418: Outline.005_end
+    100420: Outline.006
+    100422: Outline.006_end
+    100424: Outline.007
+    100426: Outline.007_end
+    100428: Outline.008
+    100430: Outline.008_end
+    100432: Outline.010
+    100434: Outline.010_end
+    100436: Outline.011
+    100438: Outline.011_end
+    100440: Outline.014
+    100442: Outline.014_end
+    100444: Outline.015
+    100446: Outline.015_end
+    100448: Outline.016
+    100450: Outline.016_end
+    100452: Outline.017
+    100454: Outline.017_end
+    100456: Outline.018
+    100458: Outline.018_end
+    100460: Outline_end
+    100462: Outline_end 1
+    100464: Sad:Left
+    100466: Sad:Left_end
+    100468: Sad:Right
+    100470: Sad:Right_end
+    100472: Teeth:Lower
+    100474: Teeth:Lower_end
+    100476: Teeth:Upper
+    100478: Teeth:Upper_end
+    100480: Waist
+    100482: Waist_end
+    100484: Yaw
+    100486: Yaw_end
+    400000: 2nd-Layer
+    400002: 2nd-Layer_end
+    400004: Angry:Left
+    400006: Angry:Left_end
+    400008: Angry:Right
+    400010: Angry:Right_end
+    400012: Arm:Left:Lower
+    400014: Arm:Left:Upper
+    400016: Arm:Right:Lower
+    400018: Arm:Right:Upper
+    400020: Body
+    400022: Body.001
+    400024: Bone
+    400026: Bone 1
+    400028: Breast
+    400030: Breast_end
+    400032: Camera
+    400034: Char-Bones
+    400036: Char-Head
+    400038: Char-Mesh
+    400040: Char-Mesh.001
+    400042: Chest
+    400044: Custom-bone-Headsquish
+    400046: Custom-Bone-Shape:Feet
+    400048: Custom-Bone-Shape:Finger
+    400050: Custom-Bone-Shape:Hands
+    400052: Custom-Bone-Shape:Main
+    400054: Custom-Bone:Eyebrow
+    400056: Custom-Bone:Eyebrow:Bend
+    400058: Drivers:Controls
+    400060: Drivers:Design
+    400062: Eye-LimitLocation:Fix
+    400064: Eye-LimitLocation:Fix_end
+    400066: Eye-Move:Up
+    400068: Eye-Move:Up:Textured
+    400070: Eye-Move:Up:Textured_end
+    400072: Eye-Move:Up_end
+    400074: Eye-Size:2x2
+    400076: Eye-Size:2x2_end
+    400078: Eye-Size:Left
+    400080: Eye-Size:Left_end
+    400082: Eye-Size:Right
+    400084: Eye-Size:Right_end
+    400086: Eye:Left
+    400088: Eye:Left_end
+    400090: Eye:Right
+    400092: Eye:Right_end
+    400094: Eyebrow.L
+    400096: Eyebrow.R
+    400098: Eyebrow:Bend.L
+    400100: Eyebrow:Bend.L.001
+    400102: Eyebrow:Bend.L.001_end
+    400104: Eyebrow:Bend.L.002
+    400106: Eyebrow:Bend.L.002_end
+    400108: Eyebrow:Bend.L.003
+    400110: Eyebrow:Bend.L.003_end
+    400112: Eyebrow:Bend.L_end
+    400114: Eyebrow:Bend.R
+    400116: Eyebrow:Bend.R.001
+    400118: Eyebrow:Bend.R.001_end
+    400120: Eyebrow:Bend.R.002
+    400122: Eyebrow:Bend.R.002_end
+    400124: Eyebrow:Bend.R.003
+    400126: Eyebrow:Bend.R.003_end
+    400128: Eyebrow:Bend.R_end
+    400130: Eyebrow:Left
+    400132: Eyebrow:Left_end
+    400134: Eyebrow:Right
+    400136: Eyebrow:Right_end
+    400138: Eyebrows
+    400140: Eyebrows:Thickness
+    400142: Eyebrows:Thickness_end
+    400144: Eyebrows_end
+    400146: Eyelid:Lower:Left
+    400148: Eyelid:Lower:Left_end
+    400150: Eyelid:Lower:Right
+    400152: Eyelid:Lower:Right_end
+    400154: Eyelid:Upper:Left
+    400156: Eyelid:Upper:Left_end
+    400158: Eyelid:Upper:Right
+    400160: Eyelid:Upper:Right_end
+    400162: EyeTracking
+    400164: EyeTracking:Left
+    400166: EyeTracking:Left_end
+    400168: EyeTracking:Right
+    400170: EyeTracking:Right_end
+    400172: EyeTracking_end
+    400174: Face-Flat
+    400176: Face-Flat_end
+    400178: Facial-Controls
+    400180: Facial-Controls_end
+    400182: Feet:Left
+    400184: Feet:Left_end
+    400186: Feet:Right
+    400188: Feet:Right_end
+    400190: Finger:L:1
+    400192: Finger:L:1:L
+    400194: Finger:L:1:L_end
+    400196: Finger:L:1:U
+    400198: Finger:L:2
+    400200: Finger:L:2:L
+    400202: Finger:L:2:L_end
+    400204: Finger:L:2:U
+    400206: Finger:L:3
+    400208: Finger:L:3:L
+    400210: Finger:L:3:L_end
+    400212: Finger:L:3:U
+    400214: Finger:L:4
+    400216: Finger:L:4:L
+    400218: Finger:L:4:L_end
+    400220: Finger:L:4:U
+    400222: Finger:L:Tumb
+    400224: Finger:L:Tumb_end
+    400226: Finger:R:1
+    400228: Finger:R:1:L
+    400230: Finger:R:1:L_end
+    400232: Finger:R:1:U
+    400234: Finger:R:2
+    400236: Finger:R:2:L
+    400238: Finger:R:2:L_end
+    400240: Finger:R:2:U
+    400242: Finger:R:3
+    400244: Finger:R:3:L
+    400246: Finger:R:3:L_end
+    400248: Finger:R:3:U
+    400250: Finger:R:4
+    400252: Finger:R:4:L
+    400254: Finger:R:4:L_end
+    400256: Finger:R:4:U
+    400258: Finger:R:Tumb
+    400260: Finger:R:Tumb_end
+    400262: Hat
+    400264: Hat 1
+    400266: Hat_end
+    400268: Head
+    400270: Head-Squish
+    400272: Head-Squish_end
+    400274: IK-Arm:Left
+    400276: IK-Arm:Left 1
+    400278: IK-Arm:Left:Connected-to-Body
+    400280: IK-Arm:Left:Connected-to-Body_end
+    400282: IK-Arm:Left:Display-Bones
+    400284: IK-Arm:Left:Display-Bones_end
+    400286: IK-Arm:Left_end
+    400288: IK-Arm:Right
+    400290: IK-Arm:Right 1
+    400292: IK-Arm:Right:Connected-to-Body
+    400294: IK-Arm:Right:Connected-to-Body_end
+    400296: IK-Arm:Right:Display-Bones
+    400298: IK-Arm:Right:Display-Bones_end
+    400300: IK-Arm:Right_end
+    400302: IK-Arm:Rotation:Left
+    400304: IK-Arm:Rotation:Left_end
+    400306: IK-Arm:Rotation:Right
+    400308: IK-Arm:Rotation:Right_end
+    400310: IK-Display:Arm
+    400312: IK-Display:Arm_end
+    400314: IK-Display:Leg
+    400316: IK-Display:Leg_end
+    400318: IK-Leg:Left
+    400320: IK-Leg:Left 1
+    400322: IK-Leg:Left:Display-Bones
+    400324: IK-Leg:Left:Display-Bones_end
+    400326: IK-Leg:Left_end
+    400328: IK-Leg:Right
+    400330: IK-Leg:Right 1
+    400332: IK-leg:Right:Display-Bones
+    400334: IK-leg:Right:Display-Bones_end
+    400336: IK-Leg:Right_end
+    400338: IK-Leg:Rotation:Left
+    400340: IK-Leg:Rotation:Left_end
+    400342: IK-Leg:Rotation:Right
+    400344: IK-Leg:Rotation:Right_end
+    400346: Leg:Left:Lower
+    400348: Leg:Left:Upper
+    400350: Leg:Right:Lower
+    400352: Leg:Right:Upper
+    400354: //RootNode
+    400356: Mouth
+    400358: Mouth:Left
+    400360: Mouth:Left_end
+    400362: Mouth:Right
+    400364: Mouth:Right_end
+    400366: Mouth:Scared
+    400368: Mouth:Scared_end
+    400370: Mouth_end
+    400372: No-Fingers
+    400374: No-Fingers_end
+    400376: No-Head
+    400378: No-Head_end
+    400380: Outline
+    400382: Outline 1
+    400384: Outline.001
+    400386: Outline.001 1
+    400388: Outline.001_end
+    400390: Outline.001_end 1
+    400392: Outline.002
+    400394: Outline.002 1
+    400396: Outline.002_end
+    400398: Outline.002_end 1
+    400400: Outline.003
+    400402: Outline.003 1
+    400404: Outline.003_end
+    400406: Outline.003_end 1
+    400408: Outline.004
+    400410: Outline.004 1
+    400412: Outline.004_end
+    400414: Outline.004_end 1
+    400416: Outline.005
+    400418: Outline.005_end
+    400420: Outline.006
+    400422: Outline.006_end
+    400424: Outline.007
+    400426: Outline.007_end
+    400428: Outline.008
+    400430: Outline.008_end
+    400432: Outline.010
+    400434: Outline.010_end
+    400436: Outline.011
+    400438: Outline.011_end
+    400440: Outline.014
+    400442: Outline.014_end
+    400444: Outline.015
+    400446: Outline.015_end
+    400448: Outline.016
+    400450: Outline.016_end
+    400452: Outline.017
+    400454: Outline.017_end
+    400456: Outline.018
+    400458: Outline.018_end
+    400460: Outline_end
+    400462: Outline_end 1
+    400464: Sad:Left
+    400466: Sad:Left_end
+    400468: Sad:Right
+    400470: Sad:Right_end
+    400472: Teeth:Lower
+    400474: Teeth:Lower_end
+    400476: Teeth:Upper
+    400478: Teeth:Upper_end
+    400480: Waist
+    400482: Waist_end
+    400484: Yaw
+    400486: Yaw_end
+    2300000: Custom-bone-Headsquish
+    2300002: Custom-Bone-Shape:Feet
+    2300004: Custom-Bone-Shape:Finger
+    2300006: Custom-Bone-Shape:Hands
+    2300008: Custom-Bone-Shape:Main
+    2300010: Custom-Bone:Eyebrow
+    2300012: Custom-Bone:Eyebrow:Bend
+    3300000: Custom-bone-Headsquish
+    3300002: Custom-Bone-Shape:Feet
+    3300004: Custom-Bone-Shape:Finger
+    3300006: Custom-Bone-Shape:Hands
+    3300008: Custom-Bone-Shape:Main
+    3300010: Custom-Bone:Eyebrow
+    3300012: Custom-Bone:Eyebrow:Bend
+    4300000: Custom-bone-Headsquish
+    4300002: Custom-Bone:Eyebrow:Bend
+    4300004: Custom-Bone:Eyebrow
+    4300006: Custom-Bone-Shape:Hands
+    4300008: Custom-Bone-Shape:Feet
+    4300010: Custom-Bone-Shape:Main
+    4300012: Custom-Bone-Shape:Finger
+    4300014: Hat
+    4300016: Char-Mesh.001
+    4300018: Char-Head
+    4300020: Char-Mesh
+    7400000: Drivers:Design|Drivers:DesignAction
+    7400002: Char-Bones|Char-BonesAction.001
+    7400004: Chris-Sit
+    9500000: //RootNode
+    13700000: Char-Head
+    13700002: Char-Mesh
+    13700004: Char-Mesh.001
+    13700006: Hat 1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Chris-Sit
+      takeName: Char-Bones|Char-BonesAction.001
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Char-Bones
+        weight: 1
+      - path: Char-Bones/Body.001
+        weight: 1
+      - path: Char-Bones/Body.001/Body
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Left:Upper
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Left:Upper/Arm:Left:Lower
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Left:Upper/Arm:Left:Lower/Finger:L:1
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Left:Upper/Arm:Left:Lower/Finger:L:1/Finger:L:1:U
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Left:Upper/Arm:Left:Lower/Finger:L:1/Finger:L:1:U/Finger:L:1:L
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Left:Upper/Arm:Left:Lower/Finger:L:1/Finger:L:1:U/Finger:L:1:L/Finger:L:1:L_end
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Left:Upper/Arm:Left:Lower/Finger:L:2
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Left:Upper/Arm:Left:Lower/Finger:L:2/Finger:L:2:U
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Left:Upper/Arm:Left:Lower/Finger:L:2/Finger:L:2:U/Finger:L:2:L
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Left:Upper/Arm:Left:Lower/Finger:L:2/Finger:L:2:U/Finger:L:2:L/Finger:L:2:L_end
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Left:Upper/Arm:Left:Lower/Finger:L:3
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Left:Upper/Arm:Left:Lower/Finger:L:3/Finger:L:3:U
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Left:Upper/Arm:Left:Lower/Finger:L:3/Finger:L:3:U/Finger:L:3:L
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Left:Upper/Arm:Left:Lower/Finger:L:3/Finger:L:3:U/Finger:L:3:L/Finger:L:3:L_end
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Left:Upper/Arm:Left:Lower/Finger:L:4
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Left:Upper/Arm:Left:Lower/Finger:L:4/Finger:L:4:U
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Left:Upper/Arm:Left:Lower/Finger:L:4/Finger:L:4:U/Finger:L:4:L
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Left:Upper/Arm:Left:Lower/Finger:L:4/Finger:L:4:U/Finger:L:4:L/Finger:L:4:L_end
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Left:Upper/Arm:Left:Lower/Finger:L:Tumb
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Left:Upper/Arm:Left:Lower/Finger:L:Tumb/Finger:L:Tumb_end
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Right:Upper
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Right:Upper/Arm:Right:Lower
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Right:Upper/Arm:Right:Lower/Finger:R:1
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Right:Upper/Arm:Right:Lower/Finger:R:1/Finger:R:1:U
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Right:Upper/Arm:Right:Lower/Finger:R:1/Finger:R:1:U/Finger:R:1:L
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Right:Upper/Arm:Right:Lower/Finger:R:1/Finger:R:1:U/Finger:R:1:L/Finger:R:1:L_end
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Right:Upper/Arm:Right:Lower/Finger:R:2
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Right:Upper/Arm:Right:Lower/Finger:R:2/Finger:R:2:U
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Right:Upper/Arm:Right:Lower/Finger:R:2/Finger:R:2:U/Finger:R:2:L
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Right:Upper/Arm:Right:Lower/Finger:R:2/Finger:R:2:U/Finger:R:2:L/Finger:R:2:L_end
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Right:Upper/Arm:Right:Lower/Finger:R:3
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Right:Upper/Arm:Right:Lower/Finger:R:3/Finger:R:3:U
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Right:Upper/Arm:Right:Lower/Finger:R:3/Finger:R:3:U/Finger:R:3:L
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Right:Upper/Arm:Right:Lower/Finger:R:3/Finger:R:3:U/Finger:R:3:L/Finger:R:3:L_end
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Right:Upper/Arm:Right:Lower/Finger:R:4
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Right:Upper/Arm:Right:Lower/Finger:R:4/Finger:R:4:U
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Right:Upper/Arm:Right:Lower/Finger:R:4/Finger:R:4:U/Finger:R:4:L
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Right:Upper/Arm:Right:Lower/Finger:R:4/Finger:R:4:U/Finger:R:4:L/Finger:R:4:L_end
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Right:Upper/Arm:Right:Lower/Finger:R:Tumb
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Right:Upper/Arm:Right:Lower/Finger:R:Tumb/Finger:R:Tumb_end
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/Eye:Left
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/Eye:Left/Eye:Left_end
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/Eye:Right
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/Eye:Right/Eye:Right_end
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/Eyebrow.L
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/Eyebrow.L/Eyebrow:Bend.L
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/Eyebrow.L/Eyebrow:Bend.L/Eyebrow:Bend.L_end
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/Eyebrow.L/Eyebrow:Bend.L.001
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/Eyebrow.L/Eyebrow:Bend.L.001/Eyebrow:Bend.L.001_end
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/Eyebrow.L/Eyebrow:Bend.L.002
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/Eyebrow.L/Eyebrow:Bend.L.002/Eyebrow:Bend.L.002_end
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/Eyebrow.L/Eyebrow:Bend.L.003
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/Eyebrow.L/Eyebrow:Bend.L.003/Eyebrow:Bend.L.003_end
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/Eyebrow.R
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/Eyebrow.R/Eyebrow:Bend.R
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/Eyebrow.R/Eyebrow:Bend.R/Eyebrow:Bend.R_end
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/Eyebrow.R/Eyebrow:Bend.R.001
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/Eyebrow.R/Eyebrow:Bend.R.001/Eyebrow:Bend.R.001_end
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/Eyebrow.R/Eyebrow:Bend.R.002
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/Eyebrow.R/Eyebrow:Bend.R.002/Eyebrow:Bend.R.002_end
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/Eyebrow.R/Eyebrow:Bend.R.003
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/Eyebrow.R/Eyebrow:Bend.R.003/Eyebrow:Bend.R.003_end
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/EyeTracking
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/EyeTracking/EyeTracking_end
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/EyeTracking:Left
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/EyeTracking:Left/EyeTracking:Left_end
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/EyeTracking:Right
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/EyeTracking:Right/EyeTracking:Right_end
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/Hat 1
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/Head-Squish
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/Head-Squish/Head-Squish_end
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Leg:Left:Upper
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Leg:Left:Upper/Leg:Left:Lower
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Leg:Left:Upper/Leg:Left:Lower/Feet:Left
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Leg:Left:Upper/Leg:Left:Lower/Feet:Left/Feet:Left_end
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Leg:Right:Upper
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Leg:Right:Upper/Leg:Right:Lower
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Leg:Right:Upper/Leg:Right:Lower/Feet:Right
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Leg:Right:Upper/Leg:Right:Lower/Feet:Right/Feet:Right_end
+        weight: 1
+      - path: Char-Bones/Body.001/IK-Arm:Left
+        weight: 1
+      - path: Char-Bones/Body.001/IK-Arm:Left/IK-Arm:Rotation:Left
+        weight: 1
+      - path: Char-Bones/Body.001/IK-Arm:Left/IK-Arm:Rotation:Left/IK-Arm:Rotation:Left_end
+        weight: 1
+      - path: Char-Bones/Body.001/IK-Arm:Right
+        weight: 1
+      - path: Char-Bones/Body.001/IK-Arm:Right/IK-Arm:Rotation:Right
+        weight: 1
+      - path: Char-Bones/Body.001/IK-Arm:Right/IK-Arm:Rotation:Right/IK-Arm:Rotation:Right_end
+        weight: 1
+      - path: Char-Bones/Body.001/IK-Leg:Left
+        weight: 1
+      - path: Char-Bones/Body.001/IK-Leg:Left/IK-Leg:Rotation:Left
+        weight: 1
+      - path: Char-Bones/Body.001/IK-Leg:Left/IK-Leg:Rotation:Left/IK-Leg:Rotation:Left_end
+        weight: 1
+      - path: Char-Bones/Body.001/IK-Leg:Right
+        weight: 1
+      - path: Char-Bones/Body.001/IK-Leg:Right/IK-Leg:Rotation:Right
+        weight: 1
+      - path: Char-Bones/Body.001/IK-Leg:Right/IK-Leg:Rotation:Right/IK-Leg:Rotation:Right_end
+        weight: 1
+      - path: Char-Head
+        weight: 1
+      - path: Char-Mesh
+        weight: 1
+      - path: Char-Mesh.001
+        weight: 1
+      - path: Custom-bone-Headsquish
+        weight: 1
+      - path: Custom-Bone-Shape:Feet
+        weight: 1
+      - path: Custom-Bone-Shape:Finger
+        weight: 1
+      - path: Custom-Bone-Shape:Hands
+        weight: 1
+      - path: Custom-Bone-Shape:Main
+        weight: 1
+      - path: Custom-Bone:Eyebrow
+        weight: 1
+      - path: Custom-Bone:Eyebrow:Bend
+        weight: 1
+      - path: Drivers:Controls
+        weight: 1
+      - path: Drivers:Controls/Bone
+        weight: 1
+      - path: Drivers:Controls/Bone/Angry:Left
+        weight: 1
+      - path: Drivers:Controls/Bone/Angry:Left/Angry:Left_end
+        weight: 1
+      - path: Drivers:Controls/Bone/Angry:Right
+        weight: 1
+      - path: Drivers:Controls/Bone/Angry:Right/Angry:Right_end
+        weight: 1
+      - path: Drivers:Controls/Bone/Eye-Size:Left
+        weight: 1
+      - path: Drivers:Controls/Bone/Eye-Size:Left/Eye-Size:Left_end
+        weight: 1
+      - path: Drivers:Controls/Bone/Eye-Size:Right
+        weight: 1
+      - path: Drivers:Controls/Bone/Eye-Size:Right/Eye-Size:Right_end
+        weight: 1
+      - path: Drivers:Controls/Bone/Eyebrow:Left
+        weight: 1
+      - path: Drivers:Controls/Bone/Eyebrow:Left/Eyebrow:Left_end
+        weight: 1
+      - path: Drivers:Controls/Bone/Eyebrow:Right
+        weight: 1
+      - path: Drivers:Controls/Bone/Eyebrow:Right/Eyebrow:Right_end
+        weight: 1
+      - path: Drivers:Controls/Bone/Eyelid:Lower:Left
+        weight: 1
+      - path: Drivers:Controls/Bone/Eyelid:Lower:Left/Eyelid:Lower:Left_end
+        weight: 1
+      - path: Drivers:Controls/Bone/Eyelid:Lower:Right
+        weight: 1
+      - path: Drivers:Controls/Bone/Eyelid:Lower:Right/Eyelid:Lower:Right_end
+        weight: 1
+      - path: Drivers:Controls/Bone/Eyelid:Upper:Left
+        weight: 1
+      - path: Drivers:Controls/Bone/Eyelid:Upper:Left/Eyelid:Upper:Left_end
+        weight: 1
+      - path: Drivers:Controls/Bone/Eyelid:Upper:Right
+        weight: 1
+      - path: Drivers:Controls/Bone/Eyelid:Upper:Right/Eyelid:Upper:Right_end
+        weight: 1
+      - path: Drivers:Controls/Bone/Facial-Controls
+        weight: 1
+      - path: Drivers:Controls/Bone/Facial-Controls/Facial-Controls_end
+        weight: 1
+      - path: Drivers:Controls/Bone/Mouth
+        weight: 1
+      - path: Drivers:Controls/Bone/Mouth/Mouth_end
+        weight: 1
+      - path: Drivers:Controls/Bone/Mouth:Left
+        weight: 1
+      - path: Drivers:Controls/Bone/Mouth:Left/Mouth:Left_end
+        weight: 1
+      - path: Drivers:Controls/Bone/Mouth:Right
+        weight: 1
+      - path: Drivers:Controls/Bone/Mouth:Right/Mouth:Right_end
+        weight: 1
+      - path: Drivers:Controls/Bone/Mouth:Scared
+        weight: 1
+      - path: Drivers:Controls/Bone/Mouth:Scared/Mouth:Scared_end
+        weight: 1
+      - path: Drivers:Controls/Bone/Outline
+        weight: 1
+      - path: Drivers:Controls/Bone/Outline/Outline_end
+        weight: 1
+      - path: Drivers:Controls/Bone/Outline.001
+        weight: 1
+      - path: Drivers:Controls/Bone/Outline.001/Outline.001_end
+        weight: 1
+      - path: Drivers:Controls/Bone/Outline.002
+        weight: 1
+      - path: Drivers:Controls/Bone/Outline.002/Outline.002_end
+        weight: 1
+      - path: Drivers:Controls/Bone/Outline.003
+        weight: 1
+      - path: Drivers:Controls/Bone/Outline.003/Outline.003_end
+        weight: 1
+      - path: Drivers:Controls/Bone/Outline.004
+        weight: 1
+      - path: Drivers:Controls/Bone/Outline.004/Outline.004_end
+        weight: 1
+      - path: Drivers:Controls/Bone/Sad:Left
+        weight: 1
+      - path: Drivers:Controls/Bone/Sad:Left/Sad:Left_end
+        weight: 1
+      - path: Drivers:Controls/Bone/Sad:Right
+        weight: 1
+      - path: Drivers:Controls/Bone/Sad:Right/Sad:Right_end
+        weight: 1
+      - path: Drivers:Controls/Bone/Teeth:Lower
+        weight: 1
+      - path: Drivers:Controls/Bone/Teeth:Lower/Teeth:Lower_end
+        weight: 1
+      - path: Drivers:Controls/Bone/Teeth:Upper
+        weight: 1
+      - path: Drivers:Controls/Bone/Teeth:Upper/Teeth:Upper_end
+        weight: 1
+      - path: Drivers:Controls/Bone/Yaw
+        weight: 1
+      - path: Drivers:Controls/Bone/Yaw/Yaw_end
+        weight: 1
+      - path: Drivers:Design
+        weight: 1
+      - path: Drivers:Design/Bone 1
+        weight: 1
+      - path: Drivers:Design/Bone 1/2nd-Layer
+        weight: 1
+      - path: Drivers:Design/Bone 1/2nd-Layer/2nd-Layer_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/Breast
+        weight: 1
+      - path: Drivers:Design/Bone 1/Breast/Breast_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/Eye-LimitLocation:Fix
+        weight: 1
+      - path: Drivers:Design/Bone 1/Eye-LimitLocation:Fix/Eye-LimitLocation:Fix_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/Eye-Move:Up
+        weight: 1
+      - path: Drivers:Design/Bone 1/Eye-Move:Up/Eye-Move:Up_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/Eye-Move:Up:Textured
+        weight: 1
+      - path: Drivers:Design/Bone 1/Eye-Move:Up:Textured/Eye-Move:Up:Textured_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/Eye-Size:2x2
+        weight: 1
+      - path: Drivers:Design/Bone 1/Eye-Size:2x2/Eye-Size:2x2_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/Eyebrows
+        weight: 1
+      - path: Drivers:Design/Bone 1/Eyebrows/Eyebrows_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/Eyebrows:Thickness
+        weight: 1
+      - path: Drivers:Design/Bone 1/Eyebrows:Thickness/Eyebrows:Thickness_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/Face-Flat
+        weight: 1
+      - path: Drivers:Design/Bone 1/Face-Flat/Face-Flat_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/Hat
+        weight: 1
+      - path: Drivers:Design/Bone 1/Hat/Hat_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/IK-Arm:Left 1
+        weight: 1
+      - path: Drivers:Design/Bone 1/IK-Arm:Left 1/IK-Arm:Left_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/IK-Arm:Left:Connected-to-Body
+        weight: 1
+      - path: Drivers:Design/Bone 1/IK-Arm:Left:Connected-to-Body/IK-Arm:Left:Connected-to-Body_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/IK-Arm:Left:Display-Bones
+        weight: 1
+      - path: Drivers:Design/Bone 1/IK-Arm:Left:Display-Bones/IK-Arm:Left:Display-Bones_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/IK-Arm:Right 1
+        weight: 1
+      - path: Drivers:Design/Bone 1/IK-Arm:Right 1/IK-Arm:Right_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/IK-Arm:Right:Connected-to-Body
+        weight: 1
+      - path: Drivers:Design/Bone 1/IK-Arm:Right:Connected-to-Body/IK-Arm:Right:Connected-to-Body_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/IK-Arm:Right:Display-Bones
+        weight: 1
+      - path: Drivers:Design/Bone 1/IK-Arm:Right:Display-Bones/IK-Arm:Right:Display-Bones_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/IK-Display:Arm
+        weight: 1
+      - path: Drivers:Design/Bone 1/IK-Display:Arm/IK-Display:Arm_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/IK-Display:Leg
+        weight: 1
+      - path: Drivers:Design/Bone 1/IK-Display:Leg/IK-Display:Leg_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/IK-Leg:Left 1
+        weight: 1
+      - path: Drivers:Design/Bone 1/IK-Leg:Left 1/IK-Leg:Left_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/IK-Leg:Left:Display-Bones
+        weight: 1
+      - path: Drivers:Design/Bone 1/IK-Leg:Left:Display-Bones/IK-Leg:Left:Display-Bones_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/IK-Leg:Right 1
+        weight: 1
+      - path: Drivers:Design/Bone 1/IK-Leg:Right 1/IK-Leg:Right_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/IK-leg:Right:Display-Bones
+        weight: 1
+      - path: Drivers:Design/Bone 1/IK-leg:Right:Display-Bones/IK-leg:Right:Display-Bones_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/No-Fingers
+        weight: 1
+      - path: Drivers:Design/Bone 1/No-Fingers/No-Fingers_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/No-Head
+        weight: 1
+      - path: Drivers:Design/Bone 1/No-Head/No-Head_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline 1
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline 1/Outline_end 1
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.001 1
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.001 1/Outline.001_end 1
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.002 1
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.002 1/Outline.002_end 1
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.003 1
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.003 1/Outline.003_end 1
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.004 1
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.004 1/Outline.004_end 1
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.005
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.005/Outline.005_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.006
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.006/Outline.006_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.007
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.007/Outline.007_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.008
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.008/Outline.008_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.010
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.010/Outline.010_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.011
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.011/Outline.011_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.014
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.014/Outline.014_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.015
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.015/Outline.015_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.016
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.016/Outline.016_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.017
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.017/Outline.017_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.018
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.018/Outline.018_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/Waist
+        weight: 1
+      - path: Drivers:Design/Bone 1/Waist/Waist_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Char-Bones|Char-BonesAction.001
+      takeName: Char-Bones|Char-BonesAction.001
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Char-Bones
+        weight: 1
+      - path: Char-Bones/Body.001
+        weight: 1
+      - path: Char-Bones/Body.001/Body
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Left:Upper
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Left:Upper/Arm:Left:Lower
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Left:Upper/Arm:Left:Lower/Finger:L:1
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Left:Upper/Arm:Left:Lower/Finger:L:1/Finger:L:1:U
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Left:Upper/Arm:Left:Lower/Finger:L:1/Finger:L:1:U/Finger:L:1:L
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Left:Upper/Arm:Left:Lower/Finger:L:1/Finger:L:1:U/Finger:L:1:L/Finger:L:1:L_end
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Left:Upper/Arm:Left:Lower/Finger:L:2
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Left:Upper/Arm:Left:Lower/Finger:L:2/Finger:L:2:U
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Left:Upper/Arm:Left:Lower/Finger:L:2/Finger:L:2:U/Finger:L:2:L
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Left:Upper/Arm:Left:Lower/Finger:L:2/Finger:L:2:U/Finger:L:2:L/Finger:L:2:L_end
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Left:Upper/Arm:Left:Lower/Finger:L:3
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Left:Upper/Arm:Left:Lower/Finger:L:3/Finger:L:3:U
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Left:Upper/Arm:Left:Lower/Finger:L:3/Finger:L:3:U/Finger:L:3:L
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Left:Upper/Arm:Left:Lower/Finger:L:3/Finger:L:3:U/Finger:L:3:L/Finger:L:3:L_end
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Left:Upper/Arm:Left:Lower/Finger:L:4
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Left:Upper/Arm:Left:Lower/Finger:L:4/Finger:L:4:U
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Left:Upper/Arm:Left:Lower/Finger:L:4/Finger:L:4:U/Finger:L:4:L
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Left:Upper/Arm:Left:Lower/Finger:L:4/Finger:L:4:U/Finger:L:4:L/Finger:L:4:L_end
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Left:Upper/Arm:Left:Lower/Finger:L:Tumb
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Left:Upper/Arm:Left:Lower/Finger:L:Tumb/Finger:L:Tumb_end
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Right:Upper
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Right:Upper/Arm:Right:Lower
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Right:Upper/Arm:Right:Lower/Finger:R:1
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Right:Upper/Arm:Right:Lower/Finger:R:1/Finger:R:1:U
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Right:Upper/Arm:Right:Lower/Finger:R:1/Finger:R:1:U/Finger:R:1:L
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Right:Upper/Arm:Right:Lower/Finger:R:1/Finger:R:1:U/Finger:R:1:L/Finger:R:1:L_end
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Right:Upper/Arm:Right:Lower/Finger:R:2
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Right:Upper/Arm:Right:Lower/Finger:R:2/Finger:R:2:U
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Right:Upper/Arm:Right:Lower/Finger:R:2/Finger:R:2:U/Finger:R:2:L
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Right:Upper/Arm:Right:Lower/Finger:R:2/Finger:R:2:U/Finger:R:2:L/Finger:R:2:L_end
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Right:Upper/Arm:Right:Lower/Finger:R:3
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Right:Upper/Arm:Right:Lower/Finger:R:3/Finger:R:3:U
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Right:Upper/Arm:Right:Lower/Finger:R:3/Finger:R:3:U/Finger:R:3:L
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Right:Upper/Arm:Right:Lower/Finger:R:3/Finger:R:3:U/Finger:R:3:L/Finger:R:3:L_end
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Right:Upper/Arm:Right:Lower/Finger:R:4
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Right:Upper/Arm:Right:Lower/Finger:R:4/Finger:R:4:U
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Right:Upper/Arm:Right:Lower/Finger:R:4/Finger:R:4:U/Finger:R:4:L
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Right:Upper/Arm:Right:Lower/Finger:R:4/Finger:R:4:U/Finger:R:4:L/Finger:R:4:L_end
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Right:Upper/Arm:Right:Lower/Finger:R:Tumb
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Arm:Right:Upper/Arm:Right:Lower/Finger:R:Tumb/Finger:R:Tumb_end
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/Eye:Left
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/Eye:Left/Eye:Left_end
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/Eye:Right
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/Eye:Right/Eye:Right_end
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/Eyebrow.L
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/Eyebrow.L/Eyebrow:Bend.L
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/Eyebrow.L/Eyebrow:Bend.L/Eyebrow:Bend.L_end
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/Eyebrow.L/Eyebrow:Bend.L.001
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/Eyebrow.L/Eyebrow:Bend.L.001/Eyebrow:Bend.L.001_end
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/Eyebrow.L/Eyebrow:Bend.L.002
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/Eyebrow.L/Eyebrow:Bend.L.002/Eyebrow:Bend.L.002_end
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/Eyebrow.L/Eyebrow:Bend.L.003
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/Eyebrow.L/Eyebrow:Bend.L.003/Eyebrow:Bend.L.003_end
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/Eyebrow.R
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/Eyebrow.R/Eyebrow:Bend.R
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/Eyebrow.R/Eyebrow:Bend.R/Eyebrow:Bend.R_end
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/Eyebrow.R/Eyebrow:Bend.R.001
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/Eyebrow.R/Eyebrow:Bend.R.001/Eyebrow:Bend.R.001_end
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/Eyebrow.R/Eyebrow:Bend.R.002
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/Eyebrow.R/Eyebrow:Bend.R.002/Eyebrow:Bend.R.002_end
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/Eyebrow.R/Eyebrow:Bend.R.003
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/Eyebrow.R/Eyebrow:Bend.R.003/Eyebrow:Bend.R.003_end
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/EyeTracking
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/EyeTracking/EyeTracking_end
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/EyeTracking:Left
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/EyeTracking:Left/EyeTracking:Left_end
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/EyeTracking:Right
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/EyeTracking:Right/EyeTracking:Right_end
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/Hat 1
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/Head-Squish
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Chest/Head/Head-Squish/Head-Squish_end
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Leg:Left:Upper
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Leg:Left:Upper/Leg:Left:Lower
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Leg:Left:Upper/Leg:Left:Lower/Feet:Left
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Leg:Left:Upper/Leg:Left:Lower/Feet:Left/Feet:Left_end
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Leg:Right:Upper
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Leg:Right:Upper/Leg:Right:Lower
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Leg:Right:Upper/Leg:Right:Lower/Feet:Right
+        weight: 1
+      - path: Char-Bones/Body.001/Body/Leg:Right:Upper/Leg:Right:Lower/Feet:Right/Feet:Right_end
+        weight: 1
+      - path: Char-Bones/Body.001/IK-Arm:Left
+        weight: 1
+      - path: Char-Bones/Body.001/IK-Arm:Left/IK-Arm:Rotation:Left
+        weight: 1
+      - path: Char-Bones/Body.001/IK-Arm:Left/IK-Arm:Rotation:Left/IK-Arm:Rotation:Left_end
+        weight: 1
+      - path: Char-Bones/Body.001/IK-Arm:Right
+        weight: 1
+      - path: Char-Bones/Body.001/IK-Arm:Right/IK-Arm:Rotation:Right
+        weight: 1
+      - path: Char-Bones/Body.001/IK-Arm:Right/IK-Arm:Rotation:Right/IK-Arm:Rotation:Right_end
+        weight: 1
+      - path: Char-Bones/Body.001/IK-Leg:Left
+        weight: 1
+      - path: Char-Bones/Body.001/IK-Leg:Left/IK-Leg:Rotation:Left
+        weight: 1
+      - path: Char-Bones/Body.001/IK-Leg:Left/IK-Leg:Rotation:Left/IK-Leg:Rotation:Left_end
+        weight: 1
+      - path: Char-Bones/Body.001/IK-Leg:Right
+        weight: 1
+      - path: Char-Bones/Body.001/IK-Leg:Right/IK-Leg:Rotation:Right
+        weight: 1
+      - path: Char-Bones/Body.001/IK-Leg:Right/IK-Leg:Rotation:Right/IK-Leg:Rotation:Right_end
+        weight: 1
+      - path: Char-Head
+        weight: 1
+      - path: Char-Mesh
+        weight: 1
+      - path: Char-Mesh.001
+        weight: 1
+      - path: Custom-bone-Headsquish
+        weight: 1
+      - path: Custom-Bone-Shape:Feet
+        weight: 1
+      - path: Custom-Bone-Shape:Finger
+        weight: 1
+      - path: Custom-Bone-Shape:Hands
+        weight: 1
+      - path: Custom-Bone-Shape:Main
+        weight: 1
+      - path: Custom-Bone:Eyebrow
+        weight: 1
+      - path: Custom-Bone:Eyebrow:Bend
+        weight: 1
+      - path: Drivers:Controls
+        weight: 1
+      - path: Drivers:Controls/Bone
+        weight: 1
+      - path: Drivers:Controls/Bone/Angry:Left
+        weight: 1
+      - path: Drivers:Controls/Bone/Angry:Left/Angry:Left_end
+        weight: 1
+      - path: Drivers:Controls/Bone/Angry:Right
+        weight: 1
+      - path: Drivers:Controls/Bone/Angry:Right/Angry:Right_end
+        weight: 1
+      - path: Drivers:Controls/Bone/Eye-Size:Left
+        weight: 1
+      - path: Drivers:Controls/Bone/Eye-Size:Left/Eye-Size:Left_end
+        weight: 1
+      - path: Drivers:Controls/Bone/Eye-Size:Right
+        weight: 1
+      - path: Drivers:Controls/Bone/Eye-Size:Right/Eye-Size:Right_end
+        weight: 1
+      - path: Drivers:Controls/Bone/Eyebrow:Left
+        weight: 1
+      - path: Drivers:Controls/Bone/Eyebrow:Left/Eyebrow:Left_end
+        weight: 1
+      - path: Drivers:Controls/Bone/Eyebrow:Right
+        weight: 1
+      - path: Drivers:Controls/Bone/Eyebrow:Right/Eyebrow:Right_end
+        weight: 1
+      - path: Drivers:Controls/Bone/Eyelid:Lower:Left
+        weight: 1
+      - path: Drivers:Controls/Bone/Eyelid:Lower:Left/Eyelid:Lower:Left_end
+        weight: 1
+      - path: Drivers:Controls/Bone/Eyelid:Lower:Right
+        weight: 1
+      - path: Drivers:Controls/Bone/Eyelid:Lower:Right/Eyelid:Lower:Right_end
+        weight: 1
+      - path: Drivers:Controls/Bone/Eyelid:Upper:Left
+        weight: 1
+      - path: Drivers:Controls/Bone/Eyelid:Upper:Left/Eyelid:Upper:Left_end
+        weight: 1
+      - path: Drivers:Controls/Bone/Eyelid:Upper:Right
+        weight: 1
+      - path: Drivers:Controls/Bone/Eyelid:Upper:Right/Eyelid:Upper:Right_end
+        weight: 1
+      - path: Drivers:Controls/Bone/Facial-Controls
+        weight: 1
+      - path: Drivers:Controls/Bone/Facial-Controls/Facial-Controls_end
+        weight: 1
+      - path: Drivers:Controls/Bone/Mouth
+        weight: 1
+      - path: Drivers:Controls/Bone/Mouth/Mouth_end
+        weight: 1
+      - path: Drivers:Controls/Bone/Mouth:Left
+        weight: 1
+      - path: Drivers:Controls/Bone/Mouth:Left/Mouth:Left_end
+        weight: 1
+      - path: Drivers:Controls/Bone/Mouth:Right
+        weight: 1
+      - path: Drivers:Controls/Bone/Mouth:Right/Mouth:Right_end
+        weight: 1
+      - path: Drivers:Controls/Bone/Mouth:Scared
+        weight: 1
+      - path: Drivers:Controls/Bone/Mouth:Scared/Mouth:Scared_end
+        weight: 1
+      - path: Drivers:Controls/Bone/Outline
+        weight: 1
+      - path: Drivers:Controls/Bone/Outline/Outline_end
+        weight: 1
+      - path: Drivers:Controls/Bone/Outline.001
+        weight: 1
+      - path: Drivers:Controls/Bone/Outline.001/Outline.001_end
+        weight: 1
+      - path: Drivers:Controls/Bone/Outline.002
+        weight: 1
+      - path: Drivers:Controls/Bone/Outline.002/Outline.002_end
+        weight: 1
+      - path: Drivers:Controls/Bone/Outline.003
+        weight: 1
+      - path: Drivers:Controls/Bone/Outline.003/Outline.003_end
+        weight: 1
+      - path: Drivers:Controls/Bone/Outline.004
+        weight: 1
+      - path: Drivers:Controls/Bone/Outline.004/Outline.004_end
+        weight: 1
+      - path: Drivers:Controls/Bone/Sad:Left
+        weight: 1
+      - path: Drivers:Controls/Bone/Sad:Left/Sad:Left_end
+        weight: 1
+      - path: Drivers:Controls/Bone/Sad:Right
+        weight: 1
+      - path: Drivers:Controls/Bone/Sad:Right/Sad:Right_end
+        weight: 1
+      - path: Drivers:Controls/Bone/Teeth:Lower
+        weight: 1
+      - path: Drivers:Controls/Bone/Teeth:Lower/Teeth:Lower_end
+        weight: 1
+      - path: Drivers:Controls/Bone/Teeth:Upper
+        weight: 1
+      - path: Drivers:Controls/Bone/Teeth:Upper/Teeth:Upper_end
+        weight: 1
+      - path: Drivers:Controls/Bone/Yaw
+        weight: 1
+      - path: Drivers:Controls/Bone/Yaw/Yaw_end
+        weight: 1
+      - path: Drivers:Design
+        weight: 1
+      - path: Drivers:Design/Bone 1
+        weight: 1
+      - path: Drivers:Design/Bone 1/2nd-Layer
+        weight: 1
+      - path: Drivers:Design/Bone 1/2nd-Layer/2nd-Layer_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/Breast
+        weight: 1
+      - path: Drivers:Design/Bone 1/Breast/Breast_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/Eye-LimitLocation:Fix
+        weight: 1
+      - path: Drivers:Design/Bone 1/Eye-LimitLocation:Fix/Eye-LimitLocation:Fix_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/Eye-Move:Up
+        weight: 1
+      - path: Drivers:Design/Bone 1/Eye-Move:Up/Eye-Move:Up_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/Eye-Move:Up:Textured
+        weight: 1
+      - path: Drivers:Design/Bone 1/Eye-Move:Up:Textured/Eye-Move:Up:Textured_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/Eye-Size:2x2
+        weight: 1
+      - path: Drivers:Design/Bone 1/Eye-Size:2x2/Eye-Size:2x2_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/Eyebrows
+        weight: 1
+      - path: Drivers:Design/Bone 1/Eyebrows/Eyebrows_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/Eyebrows:Thickness
+        weight: 1
+      - path: Drivers:Design/Bone 1/Eyebrows:Thickness/Eyebrows:Thickness_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/Face-Flat
+        weight: 1
+      - path: Drivers:Design/Bone 1/Face-Flat/Face-Flat_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/Hat
+        weight: 1
+      - path: Drivers:Design/Bone 1/Hat/Hat_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/IK-Arm:Left 1
+        weight: 1
+      - path: Drivers:Design/Bone 1/IK-Arm:Left 1/IK-Arm:Left_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/IK-Arm:Left:Connected-to-Body
+        weight: 1
+      - path: Drivers:Design/Bone 1/IK-Arm:Left:Connected-to-Body/IK-Arm:Left:Connected-to-Body_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/IK-Arm:Left:Display-Bones
+        weight: 1
+      - path: Drivers:Design/Bone 1/IK-Arm:Left:Display-Bones/IK-Arm:Left:Display-Bones_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/IK-Arm:Right 1
+        weight: 1
+      - path: Drivers:Design/Bone 1/IK-Arm:Right 1/IK-Arm:Right_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/IK-Arm:Right:Connected-to-Body
+        weight: 1
+      - path: Drivers:Design/Bone 1/IK-Arm:Right:Connected-to-Body/IK-Arm:Right:Connected-to-Body_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/IK-Arm:Right:Display-Bones
+        weight: 1
+      - path: Drivers:Design/Bone 1/IK-Arm:Right:Display-Bones/IK-Arm:Right:Display-Bones_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/IK-Display:Arm
+        weight: 1
+      - path: Drivers:Design/Bone 1/IK-Display:Arm/IK-Display:Arm_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/IK-Display:Leg
+        weight: 1
+      - path: Drivers:Design/Bone 1/IK-Display:Leg/IK-Display:Leg_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/IK-Leg:Left 1
+        weight: 1
+      - path: Drivers:Design/Bone 1/IK-Leg:Left 1/IK-Leg:Left_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/IK-Leg:Left:Display-Bones
+        weight: 1
+      - path: Drivers:Design/Bone 1/IK-Leg:Left:Display-Bones/IK-Leg:Left:Display-Bones_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/IK-Leg:Right 1
+        weight: 1
+      - path: Drivers:Design/Bone 1/IK-Leg:Right 1/IK-Leg:Right_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/IK-leg:Right:Display-Bones
+        weight: 1
+      - path: Drivers:Design/Bone 1/IK-leg:Right:Display-Bones/IK-leg:Right:Display-Bones_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/No-Fingers
+        weight: 1
+      - path: Drivers:Design/Bone 1/No-Fingers/No-Fingers_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/No-Head
+        weight: 1
+      - path: Drivers:Design/Bone 1/No-Head/No-Head_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline 1
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline 1/Outline_end 1
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.001 1
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.001 1/Outline.001_end 1
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.002 1
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.002 1/Outline.002_end 1
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.003 1
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.003 1/Outline.003_end 1
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.004 1
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.004 1/Outline.004_end 1
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.005
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.005/Outline.005_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.006
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.006/Outline.006_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.007
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.007/Outline.007_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.008
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.008/Outline.008_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.010
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.010/Outline.010_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.011
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.011/Outline.011_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.014
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.014/Outline.014_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.015
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.015/Outline.015_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.016
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.016/Outline.016_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.017
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.017/Outline.017_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.018
+        weight: 1
+      - path: Drivers:Design/Bone 1/Outline.018/Outline.018_end
+        weight: 1
+      - path: Drivers:Design/Bone 1/Waist
+        weight: 1
+      - path: Drivers:Design/Bone 1/Waist/Waist_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

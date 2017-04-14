@@ -1,0 +1,4 @@
+This is all GSBase game content
+
+
+GSBase is the base for all GS games - Including main scripts that will be used for most games created by GS
