@@ -11,9 +11,7 @@ public class Footsteps : MonoBehaviour {
 
     private float footstepTimerDelay = 0.45f;
     private float footstepTimer;
-	private AudioClip stepSound;
-	public AudioClip WoodClip;
-	public AudioClip SandClip;
+	public AudioClip stepSound;
 	public bool isSprinting;
 
 	// Use this for initialization
@@ -22,25 +20,7 @@ public class Footsteps : MonoBehaviour {
 	
 	}
 
-	void OnCollisionStay(Collision col)
-	{
-		string floortype = col.gameObject.tag;
-		if (floortype == "Wood") {
-			stepSound = WoodClip;
-			GetComponent<AudioSource> ().clip = stepSound;
-			Debug.Log ("WOOD XD");
-		}
-		if (floortype == "Sand") {
-			stepSound = SandClip;
-			GetComponent<AudioSource> ().clip = stepSound;
-			Debug.Log ("SAND XD");
-		}
 
-	}
-	void OnCollisionExit(Collision col)
-		{
-			stepSound = null;
-		}
 	// Update is called once per frame
 	void FixedUpdate ()
     {
@@ -62,7 +42,8 @@ public class Footsteps : MonoBehaviour {
             footstepTimer = 0f;
 			if (v != 0 || h != 0)
             {
-				GetComponent<AudioSource>().clip = stepSound;
+				GetComponent<AudioSource> ().clip = stepSound;
+				GetComponent<AudioSource> ().pitch = Random.Range(80, 120)/100f;
                 GetComponent<AudioSource>().Play();
             }
 			if (v == 0 && h == 0)

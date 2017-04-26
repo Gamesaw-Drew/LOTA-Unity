@@ -34,7 +34,8 @@ public class SKYPE_CALL_FOUND_MACHINE : MonoBehaviour {
 	IEnumerator startCutscene()
 	{
 		tip.gameObject.GetComponent<Animator>().Play("Close");
-		cam.GetComponent<UnityStandardAssets.Utility.FollowTarget> ().enabled = false;
+		cam.GetComponent<UserCameraControl> ().enabled = false;
+		localCharacter.GetComponent<Animator> ().SetTrigger ("DoSceneOne");
 		iTween.MoveTo (cam.gameObject, iTween.Hash ("position", new Vector3 (-5.975f, 0.619f, 4.472f), "easeInOutQuad", "easeInOut", "loopType", "none", "time", 3, "ignoretimescale", false));
 		iTween.RotateTo (cam.gameObject, iTween.Hash ("rotation", new Vector3 (21, 285, 0), "easeType", "easeInOutQuad", "loopType", "none", "time", 3, "ignoretimescale", false));
 		localCharacter.GetComponent<GSCharacterUserInput_Singleplayer> ().enabled = false;
@@ -55,7 +56,7 @@ public class SKYPE_CALL_FOUND_MACHINE : MonoBehaviour {
 		voicePlayer.clip = chrisAmdGood;
 		voicePlayer.Play ();
 		yield return new WaitForSeconds (8);
-		cam.GetComponent<UnityStandardAssets.Utility.FollowTarget> ().enabled = true;
+		cam.GetComponent<UserCameraControl> ().enabled = true;
 		localCharacter.GetComponent<GSCharacterUserInput_Singleplayer> ().enabled = true;
 		localCharacter.GetComponent<Footsteps> ().enabled = true;
 		localCharacter.GetComponent<UnityStandardAssets.Characters.ThirdPerson.ThirdPersonUserControl> ().enabled = true;

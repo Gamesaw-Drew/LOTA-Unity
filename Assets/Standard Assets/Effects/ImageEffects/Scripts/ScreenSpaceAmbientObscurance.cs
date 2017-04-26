@@ -11,7 +11,7 @@ namespace UnityStandardAssets.ImageEffects
         public float intensity = 0.5f;
         [Range (0.1f,3)]
         public float radius = 0.2f;
-        [Range (0,3)]
+        [Range (0,8)]
         public int blurIterations = 1;
         [Range (0,5)]
         public float blurFilterDistance = 1.25f;

@@ -32,28 +32,33 @@ public class AMD_HQ_FIND_MACHINE : MonoBehaviour {
 
 	IEnumerator startCutscene()
 	{
+		localCharacter.GetComponent<Animator> ().SetFloat ("Speed", 0);
 		tip.gameObject.GetComponent<Animator>().Play("Close");
-		cam.GetComponent<UnityStandardAssets.Utility.FollowTarget> ().enabled = false;
+		localCharacter.GetComponent<Animator> ().SetTrigger ("DoSceneOne");
+		cam.GetComponent<UserCameraControl> ().enabled = false;
 		iTween.MoveTo (cam.gameObject, iTween.Hash ("position", new Vector3 (146f, 1.1f, -36f), "easeType", "easeInOutQuad", "loopType", "none", "time", 3, "ignoretimescale", false));
 		iTween.RotateTo (cam.gameObject, iTween.Hash ("rotation", new Vector3 (-10, 116, 0), "easeType", "easeInOutQuad", "loopType", "none", "time", 3, "ignoretimescale", false));
 		localCharacter.GetComponent<GSCharacterUserInput_Singleplayer> ().enabled = false;
 		localCharacter.GetComponent<Footsteps> ().enabled = false;
 		localCharacter.GetComponent<UnityStandardAssets.Characters.ThirdPerson.ThirdPersonUserControl> ().enabled = false;
-		localCharacter.GetComponent<Animator> ().SetFloat ("Speed", 0);
-		iTween.MoveTo (localCharacter, iTween.Hash ("position", new Vector3 (148.66f, -1.04f, -37.6f), "easeType", "easeInOutQuad", "loopType", "none", "time", 1, "ignoretimescale", false));
+
+		iTween.MoveTo (localCharacter, iTween.Hash ("position", new Vector3 (146.84f, -1.04f, -37.479f), "easeType", "easeInOutQuad", "loopType", "none", "time", 1, "ignoretimescale", false));
+		iTween.RotateTo (localCharacter, iTween.Hash ("rotation", new Vector3 (0, 147.065f, 0), "easeType", "easeInOutQuad", "loopType", "none", "time", 1, "ignoretimescale", false));
+
 		yield return new WaitForSeconds (3);
-		iTween.MoveTo (cam.gameObject, iTween.Hash ("position", new Vector3 (147f, 4f, -39f), "easeType", "easeInOutQuad", "loopType", "none", "time", 3, "ignoretimescale", false));
+		iTween.MoveTo (cam.gameObject, iTween.Hash ("position", new Vector3 (144f, 3.5f, -39f), "easeType", "easeInOutQuad", "loopType", "none", "time", 3, "ignoretimescale", false));
 		iTween.RotateTo (cam.gameObject, iTween.Hash ("rotation", new Vector3 (6, 120, 0), "easeType", "easeInOutQuad", "loopType", "none", "time", 3, "ignoretimescale", false));
 		yield return new WaitForSeconds (4);
-		iTween.MoveTo (cam.gameObject, iTween.Hash ("position", new Vector3 (149f, 1.5f, -37.5f), "easeType", "easeInOutQuad", "loopType", "none", "time", 3, "ignoretimescale", false));
+		iTween.MoveTo (cam.gameObject, iTween.Hash ("position", new Vector3 (148f, 1.5f, -37.5f), "easeType", "easeInOutQuad", "loopType", "none", "time", 3, "ignoretimescale", false));
 		iTween.RotateTo (cam.gameObject, iTween.Hash ("rotation", new Vector3 (5, 116, 0), "easeType", "easeInOutQuad", "loopType", "none", "time", 3, "ignoretimescale", false));
 		yield return new WaitForSeconds (6);
-		cam.GetComponent<UnityStandardAssets.Utility.FollowTarget> ().enabled = true;
+		cam.GetComponent<UserCameraControl> ().enabled = true;
 		localCharacter.GetComponent<GSCharacterUserInput_Singleplayer> ().enabled = true;
 		localCharacter.GetComponent<Footsteps> ().enabled = true;
 		localCharacter.GetComponent<UnityStandardAssets.Characters.ThirdPerson.ThirdPersonUserControl> ().enabled = true;
 		tip.gameObject.GetComponent<Animator> ().Play ("Open");
 		tip.gameObject.transform.GetChild (0).GetComponent<Text> ().text = "Go back to Chris's room and join the skype call";
+		localCharacter.GetComponent<Animator> ().ResetTrigger ("DoSceneOne");
 
 ;
 		startSkype.SetActive (true);

@@ -47,7 +47,7 @@ public class CHRIS_TALK_TO_MOM_FOUND_MACHINE : MonoBehaviour {
 		//voicePlayer.clip = tellDrewJason;
 		//voicePlayer.Play ();
 		yield return new WaitForSeconds (8);
-		cam.GetComponent<UnityStandardAssets.Utility.FollowTarget> ().enabled = true;
+		cam.GetComponent<UserCameraControl> ().enabled = true;
 		localCharacter.GetComponent<GSCharacterUserInput_Singleplayer> ().enabled = true;
 		localCharacter.GetComponent<Footsteps> ().enabled = true;
 		localCharacter.GetComponent<UnityStandardAssets.Characters.ThirdPerson.ThirdPersonUserControl> ().enabled = true;

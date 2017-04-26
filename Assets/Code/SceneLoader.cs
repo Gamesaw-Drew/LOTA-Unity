@@ -40,6 +40,8 @@ public Canvas loadingCanvas;
 		{
 			loadingCanvas.enabled = false;
 		}
+		//SceneManager.LoadScene (SceneName);
+		//loadingCanvas.enabled = false;
 
 	}
 }
