@@ -37,7 +37,7 @@ public class SKYPE_CALL_FOUND_MACHINE : MonoBehaviour {
 		cam.GetComponent<UserCameraControl> ().enabled = false;
 		localCharacter.GetComponent<Animator> ().SetTrigger ("DoSceneOne");
 		iTween.MoveTo (cam.gameObject, iTween.Hash ("position", new Vector3 (-5.975f, 0.619f, 4.472f), "easeInOutQuad", "easeInOut", "loopType", "none", "time", 3, "ignoretimescale", false));
-		iTween.RotateTo (cam.gameObject, iTween.Hash ("rotation", new Vector3 (21, 285, 0), "easeType", "easeInOutQuad", "loopType", "none", "time", 3, "ignoretimescale", false));
+		iTween.RotateTo (cam.gameObject, iTween.Hash ("rotation", new Vector3 (10, 285, 0), "easeType", "easeInOutQuad", "loopType", "none", "time", 3, "ignoretimescale", false));
 		localCharacter.GetComponent<GSCharacterUserInput_Singleplayer> ().enabled = false;
 		localCharacter.GetComponent<Footsteps> ().enabled = false;
 		localCharacter.GetComponent<UnityStandardAssets.Characters.ThirdPerson.ThirdPersonUserControl> ().enabled = false;

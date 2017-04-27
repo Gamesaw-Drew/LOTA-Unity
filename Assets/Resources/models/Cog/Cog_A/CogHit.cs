@@ -15,12 +15,12 @@ public class CogHit : MonoBehaviour {
 		
 	}
 
-	public void OnCollisionEnter(Collision col)
+	public void OnTriggerEnter(Collider col)
 	{
-		//if (col.gameObject.tag == "CogDamager")
-		//{
+		if (col.gameObject.tag == "damage")
+		{
 			StartCoroutine ("takeDamage");
-		//}
+		}
 	}
 
 	IEnumerator takeDamage()

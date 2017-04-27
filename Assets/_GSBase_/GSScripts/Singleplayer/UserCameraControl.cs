@@ -14,8 +14,11 @@ public class UserCameraControl : MonoBehaviour {
 	public float distanceMin = .5f;
 	public float distanceMax = 15f;
 	public Transform head;
+	public Transform player;
 
 	private Rigidbody rigidbody;
+
+	public bool isDown = false;
 
 	float x = 0.0f;
 	float y = 0.0f;
@@ -41,11 +44,17 @@ public class UserCameraControl : MonoBehaviour {
 	{
 		if (target) 
 		{
-			if (Input.GetMouseButton(1)){
-			x += Input.GetAxis("Mouse X") * xSpeed * distance * 0.02f;
-			y -= Input.GetAxis("Mouse Y") * ySpeed * 0.02f;
+			if (Input.GetMouseButton (1)) {
+				x += Input.GetAxis ("Mouse X") * xSpeed * distance * 0.02f;
+				y -= Input.GetAxis ("Mouse Y") * ySpeed * 0.02f;
 
-			y = ClampAngle(y, yMinLimit, yMaxLimit);
+				y = ClampAngle (y, yMinLimit, yMaxLimit);
+				Quaternion playerRot = Quaternion.Euler (0, x, 0);
+				player.rotation = playerRot;
+				isDown = true;
+
+			} else {
+				isDown = false;
 			}
 			Quaternion rotation = Quaternion.Euler(y, x, 0);
 
@@ -57,7 +66,7 @@ public class UserCameraControl : MonoBehaviour {
 				distance -=  hit.distance;
 			}
 			*/
-			Vector3 negDistance = new Vector3(0.2f, 0.0f, -distance);
+			Vector3 negDistance = new Vector3(0.5f, 0.0f, -distance);
 			Vector3 position = rotation * negDistance + target.position;
 
 			transform.rotation = rotation;

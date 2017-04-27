@@ -13,6 +13,8 @@ public class GSCharacterUserInput_Singleplayer : MonoBehaviour {
 	private Rigidbody body;
 	public bool isSprinting;
 
+	public Camera camera;
+
 	// Use this for initialization
 	void Start () {
 		this.body = GetComponent<Rigidbody>();
@@ -47,17 +49,23 @@ public class GSCharacterUserInput_Singleplayer : MonoBehaviour {
 		{
 			transform.Translate(Vector3.back * -1 * v * this.WalkSpeed*Time.deltaTime);
 		}
-		
-		if (h < 0)
-		{
-			transform.eulerAngles = new Vector3(transform.eulerAngles.x, transform.eulerAngles.y - 5 * -1 *h, transform.eulerAngles.z);
-		}
+		if (camera.GetComponent<UserCameraControl> ().isDown) {
+			if (h < 0) {
+				transform.Translate (Vector3.left * -1 * h * this.WalkSpeed * Time.deltaTime);
+			}
 
-		if (h > 0)
-		{
-			transform.eulerAngles = new Vector3(transform.eulerAngles.x, transform.eulerAngles.y + 5 * h, transform.eulerAngles.z);
-		}
+			if (h > 0) {
+				transform.Translate (Vector3.right * h * this.WalkSpeed * Time.deltaTime);
+			}
+		} else {
+			if (h < 0) {
+				transform.eulerAngles = new Vector3 (transform.eulerAngles.x, transform.eulerAngles.y - 5 * -1 * h, transform.eulerAngles.z);
+			}
 
+			if (h > 0) {
+				transform.eulerAngles = new Vector3 (transform.eulerAngles.x, transform.eulerAngles.y + 5 * h, transform.eulerAngles.z);
+			}
+		}
 		if (this.jumpingTime <= 0.0f)
 		{
 			if (this.body != null)
