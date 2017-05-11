@@ -9,6 +9,7 @@ public class anselToggle : MonoBehaviour {
 	public Ansel baseAnsel;
 
 	void Start () {
+		Debug.LogWarning ("anselToggle is deprecated! Replacement coming in the future!");
 	}
 	
 	// Update is called once per frame
@@ -18,31 +19,6 @@ public class anselToggle : MonoBehaviour {
 
 	public void FixedUpdate()
 	{
-		if(Input.GetKeyDown(KeyCode.F3)){
-			
-		Ansel.SessionData session = new Ansel.SessionData();
-		session.isAnselAllowed = true;
-		session.isFovChangeAllowed = true;
-		session.isHighresAllowed = true;
-		session.isPauseAllowed = true;
-		session.isRotationAllowed = true;
-		session.isTranslationAllowed = true;
-		session.is360StereoAllowed = false;
-		session.is360MonoAllowed = false;
-		baseAnsel.ConfigureSession(session);
-		}
-		if(Input.GetKeyDown(KeyCode.F4)){
-
-			Ansel.SessionData session = new Ansel.SessionData();
-			session.isAnselAllowed = false;
-			session.isFovChangeAllowed = true;
-			session.isHighresAllowed = true;
-			session.isPauseAllowed = true;
-			session.isRotationAllowed = true;
-			session.isTranslationAllowed = true;
-			session.is360StereoAllowed = false;
-			session.is360MonoAllowed = false;
-			baseAnsel.ConfigureSession(session);
-		}
+		
 	}
 }

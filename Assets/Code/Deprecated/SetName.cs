@@ -16,6 +16,6 @@ public class SetName : MonoBehaviour {
 	}
 
 	public void setText(string Text){
-		Debug.LogWarning ("SetName class is deprecated! Use multiplayer name system");
+		Debug.LogWarning ("SetName is deprecated! Use the multiplayer name system!");
 	}
 }
