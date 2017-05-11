@@ -42,6 +42,8 @@ namespace MaterialUI
 		private Vector2 tempVector2;
 		private float positionCompensation;
 
+		public MenuArrowAnim menuArrow;
+
 		void Awake()
 		{
 			thisRectTransform = gameObject.GetComponent<RectTransform>();
@@ -72,6 +74,7 @@ namespace MaterialUI
 			backgroundCanvasGroup.blocksRaycasts = true;
 			animStartTime = Time.realtimeSinceStartup;
 			state = 1;
+			menuArrow.Arrow ();
 		}
 
 		public void Close ()
@@ -82,6 +85,7 @@ namespace MaterialUI
 			backgroundCanvasGroup.blocksRaycasts = false;
 			animStartTime = Time.realtimeSinceStartup;
 			state = 2;
+			menuArrow.Menu ();
 		}
 
 		void Update()

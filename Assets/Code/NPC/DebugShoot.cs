@@ -9,14 +9,14 @@ public class DebugShoot : MonoBehaviour {
 	public Image crosshair;
     
     void Update() {
-		if (Input.GetButton ("Fire2")) {
+		if (mainCam.GetComponent<UserCameraControl>().isDown) {
 			crosshair.enabled = true;
 		} else {
 			crosshair.enabled = false;
 		}
 
         if (Input.GetButtonDown("Fire1")) {
-			if (Input.GetButton ("Fire2")) {
+			if (mainCam.GetComponent<UserCameraControl>().isDown) {
 				Rigidbody clone;
 				clone = Instantiate (projectile, transform.position, transform.rotation) as Rigidbody;
 				clone.velocity = mainCam.transform.TransformDirection (Vector3.forward * 100);        

@@ -14,6 +14,7 @@ public class SKYPE_CALL_FOUND_MACHINE : MonoBehaviour {
 	public AudioClip jasonAmdBad;
 	public AudioClip chrisAmdGood;
 	public GameObject start_chris_mom;
+	public GameObject chrisMom;
 
 	// Use this for initialization
 	void Start () {
@@ -63,5 +64,7 @@ public class SKYPE_CALL_FOUND_MACHINE : MonoBehaviour {
 		tip.gameObject.GetComponent<Animator> ().Play ("Open");
 		tip.gameObject.transform.GetChild (0).GetComponent<Text> ().text = "Go talk to Chris's mom";
 		start_chris_mom.SetActive (true);
+		chrisMom.SetActive (true);
+		GlobalGameControl.Instance.setLastMission (2);
 	}
 }

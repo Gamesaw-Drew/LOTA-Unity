@@ -39,9 +39,11 @@ namespace UnityStandardAssets.CrossPlatformInput
 		bool m_UseY; // Toggle for using the Y axis
 		CrossPlatformInputManager.VirtualAxis m_HorizontalVirtualAxis; // Reference to the joystick in the cross platform input
 		CrossPlatformInputManager.VirtualAxis m_VerticalVirtualAxis; // Reference to the joystick in the cross platform input
+		CrossPlatformInputManager.VirtualButton m_RightClickVirtual;
 		bool m_Dragging;
 		int m_Id = -1;
 		Vector2 m_PreviousTouchPos; // swipe style control touch
+		public Camera camera;
 
 
 #if !UNITY_EDITOR
@@ -81,6 +83,7 @@ namespace UnityStandardAssets.CrossPlatformInput
 				m_VerticalVirtualAxis = new CrossPlatformInputManager.VirtualAxis(verticalAxisName);
 				CrossPlatformInputManager.RegisterVirtualAxis(m_VerticalVirtualAxis);
 			}
+			m_RightClickVirtual = new CrossPlatformInputManager.VirtualButton ("Fire2");
 		}
 
 		void UpdateVirtualAxes(Vector3 value)
@@ -110,12 +113,20 @@ namespace UnityStandardAssets.CrossPlatformInput
 
 		void Update()
 		{
+			if (m_Dragging) {
+				m_RightClickVirtual.Pressed ();
+			} else {
+				m_RightClickVirtual.Released ();
+			}
+
 			if (!m_Dragging)
 			{
 				return;
 			}
 			if (Input.touchCount >= m_Id + 1 && m_Id != -1)
 			{
+
+
 #if !UNITY_EDITOR
 
             if (controlStyle == ControlStyle.Swipe)

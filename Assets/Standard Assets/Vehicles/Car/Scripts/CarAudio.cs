@@ -170,6 +170,7 @@ namespace UnityStandardAssets.Vehicles.Car
             source.Play();
             source.minDistance = 5;
             source.maxDistance = maxRolloffDistance;
+			source.spatialBlend = 1.0f;
             source.dopplerLevel = 0;
             return source;
         }

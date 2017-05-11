@@ -13,7 +13,7 @@ public class PauseMenu : MonoBehaviour {
 	
 	// Update is called once per frame
 	void FixedUpdate () {
-		if(Input.GetKey(KeyCode.Escape))
+		if(Input.GetAxis("StartBtn") != 0)
 		{
 			pauseGame();
 		}

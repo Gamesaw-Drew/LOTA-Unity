@@ -14,14 +14,15 @@ public class VolumeSliderMaster : MonoBehaviour {
 
 	public void Start()
 	{
-		masterVolume = 	PlayerPrefs.GetFloat ("volume_" + currentType);
-		GetComponent<Slider> ().value = masterVolume;
-		masterMixer.SetFloat(currentType, masterVolume);
+		//masterVolume = 	PlayerPrefs.GetFloat ("volume_" + currentType);
+		//GetComponent<Slider> ().value = masterVolume + 100;
+		//masterMixer.SetFloat(currentType, masterVolume);
 	}
 
 	public void AdjustVolume (float masterVolume)
 	{
-		masterMixer.SetFloat (currentType, masterVolume);
-		PlayerPrefs.SetFloat ("volume_" + currentType, masterVolume);
+		//masterVolume = masterVolume - 100;
+		//masterMixer.SetFloat (currentType, masterVolume);
+		//PlayerPrefs.SetFloat ("volume_" + currentType, masterVolume);
 	}
 }

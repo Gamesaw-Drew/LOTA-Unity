@@ -8,6 +8,7 @@ public class CHRIS_TALK_TO_MOM_FOUND_MACHINE : MonoBehaviour {
 	[SerializeField]public GameObject localCharacter;
 	[SerializeField]public Camera cam;
 	[SerializeField]public Image tip;
+	public GameObject revolver;
     public GameObject chrisMom;
 	private AudioSource voicePlayer;
 	public AudioClip clip1;
@@ -18,8 +19,6 @@ public class CHRIS_TALK_TO_MOM_FOUND_MACHINE : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		voicePlayer = GetComponent<AudioSource> ();
-		GameObject Chris_Mother = GameObject.Instantiate (chrisMom);
-		Chris_Mother.transform.position = new Vector3 (20, -1, 29);
 		StartCoroutine (startCutscene ());
 	}
 
@@ -35,23 +34,37 @@ public class CHRIS_TALK_TO_MOM_FOUND_MACHINE : MonoBehaviour {
 	IEnumerator startCutscene()
 	{
 		tip.gameObject.GetComponent<Animator>().Play("Close");
-		//cam.GetComponent<UnityStandardAssets.Utility.FollowTarget> ().enabled = false;
-		//iTween.MoveTo (cam.gameObject, iTween.Hash ("position", new Vector3 (-5.975f, 0.619f, 4.472f), "easeInOutQuad", "easeInOut", "loopType", "none", "time", 3, "ignoretimescale", false));
-		//iTween.RotateTo (cam.gameObject, iTween.Hash ("rotation", new Vector3 (21, 285, 0), "easeType", "easeInOutQuad", "loopType", "none", "time", 3, "ignoretimescale", false));
 		localCharacter.GetComponent<GSCharacterUserInput_Singleplayer> ().enabled = false;
+		localCharacter.GetComponent<Animator> ().SetFloat ("Speed", 0);
+		localCharacter.GetComponent<Animator> ().SetInteger ("DoSceneAnimation", 2);
+		cam.GetComponent<UserCameraControl> ().enabled = false;
+		localCharacter.GetComponent<GSCharacterUserInput_Singleplayer> ().enabled = false;
+
 		localCharacter.GetComponent<Footsteps> ().enabled = false;
 		localCharacter.GetComponent<UnityStandardAssets.Characters.ThirdPerson.ThirdPersonUserControl> ().enabled = false;
-		localCharacter.GetComponent<Animator> ().SetFloat ("Speed", 0);
-		//iTween.MoveTo (localCharacter, iTween.Hash ("position", new Vector3 (-3f, -1.02f, 4f), "easeType", "easeInOutQuad", "loopType", "none", "time", 1, "ignoretimescale", false));
-		yield return new WaitForSeconds (2);
-		//voicePlayer.clip = tellDrewJason;
-		//voicePlayer.Play ();
-		yield return new WaitForSeconds (8);
+		iTween.MoveTo (cam.gameObject, iTween.Hash ("position", new Vector3 (13.4f, 1.4f, 6.6f), "easeType", "easeInOutQuad", "loopType", "none", "time", .5f, "ignoretimescale", false));
+		iTween.RotateTo (cam.gameObject, iTween.Hash ("rotation", new Vector3 (4, 260, 0), "easeType", "easeInOutQuad", "loopType", "none", "time", .5f, "ignoretimescale", false));
+
+		iTween.MoveTo (localCharacter, iTween.Hash ("position", new Vector3 (9.012f, -1.08f, 3.323f), "easeType", "easeInOutQuad", "loopType", "none", "time", .1f, "ignoretimescale", false));
+		iTween.RotateTo (localCharacter, iTween.Hash ("rotation", new Vector3 (0, 10, 0), "easeType", "easeInOutQuad", "loopType", "none", "time", .1f, "ignoretimescale", false));
+		yield return new WaitForSeconds (3);
+		voicePlayer.clip = clip1;
+		voicePlayer.Play ();
+
+		yield return new WaitForSeconds (7);
+		iTween.MoveTo (cam.gameObject, iTween.Hash ("position", new Vector3 (8.8f, 1.6f, 6.7f), "easeType", "easeInOutQuad", "loopType", "none", "time", 1f, "ignoretimescale", false));
+		iTween.RotateTo (cam.gameObject, iTween.Hash ("rotation", new Vector3 (16, 176, 0), "easeType", "easeInOutQuad", "loopType", "none", "time", 1f, "ignoretimescale", false));
+		yield return new WaitForSeconds (2f);
+		revolver.SetActive (true);
+		yield return new WaitForSeconds (5);
 		cam.GetComponent<UserCameraControl> ().enabled = true;
 		localCharacter.GetComponent<GSCharacterUserInput_Singleplayer> ().enabled = true;
 		localCharacter.GetComponent<Footsteps> ().enabled = true;
 		localCharacter.GetComponent<UnityStandardAssets.Characters.ThirdPerson.ThirdPersonUserControl> ().enabled = true;
 		tip.gameObject.GetComponent<Animator> ().Play ("Open");
 		tip.gameObject.transform.GetChild (0).GetComponent<Text> ().text = "{TODO}";
+		localCharacter.GetComponent<Animator> ().SetInteger ("DoSceneAnimation", 0);
+		revolver.SetActive (false);
+		GlobalGameControl.Instance.setLastMission (3);
 	}
 }

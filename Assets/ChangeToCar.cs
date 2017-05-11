@@ -23,13 +23,13 @@ public class ChangeToCar : MonoBehaviour {
 	public void SetCar(bool enabled){
 		if (enabled) {
 			// spawn the car on the player
-			car.transform.position = player.transform.position;
-			car.transform.rotation = player.transform.rotation;
-			car.SetActive (true);
+			car.GetComponent<UnityStandardAssets.Vehicles.Car.CarUserControl> ().inputEnabled = true;
 			player.SetActive (false);
 			camera.GetComponent<UserCameraControl> ().target = carCam;
 		} else {
-			car.SetActive (false);
+			// Move the player to the car location
+			player.transform.position = car.transform.position;
+			car.GetComponent<UnityStandardAssets.Vehicles.Car.CarUserControl> ().inputEnabled = false;
 			player.SetActive (true);
 			camera.GetComponent<UserCameraControl> ().target = playerCam;
 		}

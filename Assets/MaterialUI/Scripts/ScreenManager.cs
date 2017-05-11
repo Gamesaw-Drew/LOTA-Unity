@@ -21,11 +21,22 @@ namespace MaterialUI
 		[HideInInspector]
 		public ScreenConfig lastScreen;
 
+		void Start(){
+			SetFirst (0);
+		}
+
 		public void Set(int index)
+		{			
+			screens[index].transform.SetAsLastSibling();
+			screens [index].Show (currentScreen);
+			lastScreen = currentScreen;
+			currentScreen = screens [index];
+		}
+		public void SetFirst(int index)
 		{
 			screens[index].transform.SetAsLastSibling();
 
-			screens[index].Show(currentScreen);
+			screens[index].ShowWithoutTransition();
 			lastScreen = currentScreen;
 			currentScreen = screens[index];
 		}
