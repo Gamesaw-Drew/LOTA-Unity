@@ -11,6 +11,7 @@ public class CloseCull : MonoBehaviour {
 		distances [8] = 110;
 		distances [9] = 140;
 		camera.layerCullDistances = distances;
+
 	}
 	
 	// Update is called once per frame

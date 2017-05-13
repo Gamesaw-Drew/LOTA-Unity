@@ -123,12 +123,14 @@ public class UserCameraControl : MonoBehaviour {
 			Quaternion rotation = Quaternion.Euler(y, x, 0);
 
 
-			/*RaycastHit hit;
+			RaycastHit hit;
 			if (Physics.Linecast (target.position, transform.position, out hit)) 
 			{
-				distance -=  hit.distance;
+				if (hit.transform.gameObject.layer != 10) {
+					distance = hit.distance - .25f;
+				}
 			}
-			*/
+
 
 			Vector3 position = rotation * negDistance + target.position;
 

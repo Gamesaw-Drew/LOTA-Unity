@@ -18,6 +18,9 @@ public class IntroductionScene : MonoBehaviour {
 
 	public SceneLoader loadScene;
 
+	public GameObject boss_ChatBubble;
+	public GameObject saul_ChatBubble;
+
 	// Use this for initialization
 	void Start () {
 		StartCoroutine (startCutscene ());
@@ -42,7 +45,10 @@ public class IntroductionScene : MonoBehaviour {
 		iTween.RotateTo (cam.gameObject, iTween.Hash ("rotation", new Vector3 (0, 30, 0), "easeType", "easeInOutQuad", "loopType", "none", "time", .5, "ignoretimescale", false));
 		yield return new WaitForSeconds (1);
 		saulAudio.Play ();
+		saul_ChatBubble.SetActive (true);
 		yield return new WaitForSeconds (4);
+		boss_ChatBubble.SetActive (true);
+		saul_ChatBubble.SetActive (false);
 		bossAudio.Play ();
 		yield return new WaitForSeconds (10);
 		loadScene.StartLoading ();
