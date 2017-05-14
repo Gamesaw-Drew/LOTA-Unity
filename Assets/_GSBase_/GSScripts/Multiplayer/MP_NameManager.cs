@@ -15,6 +15,7 @@ public class MP_NameManager : NetworkBehaviour {
 	public SpriteRenderer minimapBlip;
 	public TMPro.TMP_InputField chatInput;
 	public Text chatTextBox;
+	[SyncVar(hook = "OnChatMessage")] public string chatMessage; // store it to detect if it changes
 
 	// Use this for initialization
 	void Start () {
@@ -50,6 +51,7 @@ public class MP_NameManager : NetworkBehaviour {
 	public override void OnStartClient(){
 		OnNameChange (localUsername);
 		OnBlipColorChange (blipColor);
+		OnChatMessage (chatMessage);
 	}
 
 	void OnNameChange(string username)
@@ -67,8 +69,12 @@ public class MP_NameManager : NetworkBehaviour {
 
 	[Command]
 	void Cmd_SendMessage(string message){
-		string chatMessage = "\n"+localUsername+": "+ message;
-		chatTextBox.text += chatMessage;
+		chatMessage = "\n"+localUsername+": "+ message;
+	}
+
+	void OnChatMessage(string message){
+		GameObject.FindGameObjectWithTag ("TextBox").GetComponent<Text> ().text += message;
+		chatMessage = "";
 	}
 
 }
