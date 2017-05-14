@@ -25,7 +25,7 @@ public class ChangeToCar : MonoBehaviour {
 			// spawn the car on the player
 			car.GetComponent<UnityStandardAssets.Vehicles.Car.CarUserControl> ().inputEnabled = true;
 			player.SetActive (false);
-			#if CROSS_PLATFORM_INPUT
+			#if PLATFORM_ANDROID
 			camera.GetComponent<UnityStandardAssets.Utility.SmoothFollow>().target = carCam;
 			#else
 			camera.GetComponent<UserCameraControl> ().target = carCam;
@@ -35,7 +35,7 @@ public class ChangeToCar : MonoBehaviour {
 			player.transform.position = car.transform.position;
 			car.GetComponent<UnityStandardAssets.Vehicles.Car.CarUserControl> ().inputEnabled = false;
 			player.SetActive (true);
-			#if CROSS_PLATFORM_INPUT
+			#if PLATFORM_ANDROID
 			camera.GetComponent<UnityStandardAssets.Utility.SmoothFollow>().target = playerCam;
 			#else
 			camera.GetComponent<UserCameraControl> ().target = playerCam;
