@@ -23,7 +23,7 @@ public class GSCharacterUserInput_Singleplayer : MonoBehaviour {
 	void FixedUpdate () {
         float h = CrossPlatformInputManager.GetAxis("Horizontal");
         float v = CrossPlatformInputManager.GetAxis("Vertical");
-        float j = CrossPlatformInputManager.GetAxis("Jump");
+        bool j = CrossPlatformInputManager.GetButton("Jump");
 		float sprint = CrossPlatformInputManager.GetAxis("Sprint");
 
 		if (v != 0 || h != 0){
@@ -70,7 +70,7 @@ public class GSCharacterUserInput_Singleplayer : MonoBehaviour {
 		{
 			if (this.body != null)
 			{
-				if (j > 0)
+				if (j)
 				{
 					this.jumpingTime = this.JumpDelay;
 

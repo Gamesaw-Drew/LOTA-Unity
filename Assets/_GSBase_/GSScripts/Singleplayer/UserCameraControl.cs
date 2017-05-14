@@ -40,6 +40,7 @@ public class UserCameraControl : MonoBehaviour {
 	// Use this for initialization
 	void Start () 
 	{
+
 		Vector3 angles = transform.eulerAngles;
 		x = angles.y;
 		y = angles.x;
@@ -62,13 +63,18 @@ public class UserCameraControl : MonoBehaviour {
 		if (level > 3) {
 			GetComponent<PostProcessingBehaviour> ().profile = HighProfile;
 		}
+		#if PLATFORM_ANDROID
+		GetComponent<UnityStandardAssets.Utility.SmoothFollow>().enabled = true;
+		GetComponent<UnityStandardAssets.Utility.SmoothFollow>().target = target;
+		GetComponent<PostProcessingBehaviour> ().profile = null;
+		this.enabled = false;
+		#endif
 	}
 
 	void LateUpdate() 
 	{
 		if (target) 
 		{
-
 			distance = Mathf.Clamp(distance - Input.GetAxis("Mouse ScrollWheel")*5, distanceMin - .25f, distanceMax);
 
 			if (distance < distanceMin) {
@@ -95,8 +101,16 @@ public class UserCameraControl : MonoBehaviour {
 				}
 				isFirstPerson = false;
 			}
-			if(shouldMove){
 
+			#if PLATFORM_ANDROID
+			shouldMove = UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager.GetButtonDown("Fire2");
+			#endif
+
+			if(shouldMove){
+				#if PLATFORM_ANDROID
+				x += UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager.GetAxis("Mouse X")  * xSpeed * distance * 0.02f;
+				y -= UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager.GetAxis("Mouse Y")  * xSpeed * distance * 0.02f;
+				#else
 				if (Input.GetAxis ("JoyX") != 0 && Input.GetAxis ("JoyY") != 0) {
 					x += Input.GetAxis ("JoyX") * xSpeed * distance * 0.02f;
 					y -= Input.GetAxis ("JoyY") * ySpeed * 0.02f;
@@ -104,6 +118,7 @@ public class UserCameraControl : MonoBehaviour {
 					x += Input.GetAxis ("Mouse X") * xSpeed * distance * 0.02f;
 					y -= Input.GetAxis ("Mouse Y") * ySpeed * 0.02f;
 				}
+				#endif
 				y = ClampAngle (y, yMinLimit, yMaxLimit);
 				Quaternion playerRot = Quaternion.Euler (0, x, 0);
 				player.rotation = playerRot;

@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.Networking;
+using UnityEngine.PostProcessing;
 public class UserCameraControlMP : NetworkBehaviour{
 
 	public Transform target;
@@ -43,14 +44,18 @@ public class UserCameraControlMP : NetworkBehaviour{
 		{
 			rigidbody.freezeRotation = true;
 		}
-
 	}
 
 
 	void LateUpdate () {
 		if (target) 
 		{
-
+			#if PLATFORM_ANDROID
+			GetComponent<UnityStandardAssets.Utility.SmoothFollow>().enabled = true;
+			GetComponent<UnityStandardAssets.Utility.SmoothFollow>().target = target;
+			GetComponent<PostProcessingBehaviour> ().profile = null;
+			this.enabled = false;
+			#endif
 			distance = Mathf.Clamp(distance - Input.GetAxis("Mouse ScrollWheel")*5, distanceMin - .5f, distanceMax);
 
 			if (distance < distanceMin) {

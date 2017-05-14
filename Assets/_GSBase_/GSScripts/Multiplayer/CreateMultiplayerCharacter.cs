@@ -13,6 +13,7 @@ public class CreateMultiplayerCharacter : NetworkBehaviour {
 			GameObject.FindWithTag ("MainCamera").GetComponent<UserCameraControlMP> ().player = gameObject.transform;
 			GameObject.FindWithTag ("MainCamera").GetComponent<UserCameraControlMP> ().head = headBone;
 			GameObject.FindWithTag ("MainCamera").GetComponent<UserCameraControlMP> ().headMesh = headMesh;
+			GameObject.FindWithTag ("MinimapCam").GetComponent<HorizontalFollow> ().target = transform;
 		}
 		
 	}
