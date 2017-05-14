@@ -12,7 +12,7 @@ Shader "LXUI/SimpleGrabPassBlur" {
     Category {
  
         // We must be transparent, so other objects are drawn before this one.
-        Tags { "Queue"="Transparent" "IgnoreProjector"="True" "RenderType"="Opaque" }
+        Tags { "Queue"="Transparent" "IgnoreProjector"="True" "RenderType"="Transparent" }
  
  
         SubShader {

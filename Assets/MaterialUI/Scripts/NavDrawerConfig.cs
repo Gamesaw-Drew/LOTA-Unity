@@ -49,7 +49,6 @@ namespace MaterialUI
 			thisRectTransform = gameObject.GetComponent<RectTransform>();
 			backgroundRectTransform = backgroundImage.GetComponent<RectTransform>();
 			backgroundCanvasGroup = backgroundImage.GetComponent<CanvasGroup>();
-			shadowCanvasGroup = ShadowImage.GetComponent<CanvasGroup>();
 		}
 
 		void Start()
@@ -70,7 +69,6 @@ namespace MaterialUI
 		{
 			currentPos = thisRectTransform.anchoredPosition;
 			currentBackgroundAlpha = backgroundCanvasGroup.alpha;
-			currentShadowAlpha = shadowCanvasGroup.alpha;
 			backgroundCanvasGroup.blocksRaycasts = true;
 			animStartTime = Time.realtimeSinceStartup;
 			state = 1;
@@ -81,7 +79,6 @@ namespace MaterialUI
 		{
 			currentPos = thisRectTransform.anchoredPosition;
 			currentBackgroundAlpha = backgroundCanvasGroup.alpha;
-			currentShadowAlpha = shadowCanvasGroup.alpha;
 			backgroundCanvasGroup.blocksRaycasts = false;
 			animStartTime = Time.realtimeSinceStartup;
 			state = 2;
@@ -99,7 +96,6 @@ namespace MaterialUI
 					thisRectTransform.anchoredPosition = Anim.Quint.Out(currentPos, new Vector2(maxPosition, thisRectTransform.anchoredPosition.y), animDeltaTime, animationDuration);
 
 					backgroundCanvasGroup.alpha = Anim.Quint.Out(currentBackgroundAlpha, 1f, animDeltaTime, animationDuration);
-					shadowCanvasGroup.alpha = Anim.Quint.In(currentShadowAlpha, 1f, animDeltaTime, animationDuration / 2f);
 				}
 				else
 				{
@@ -117,7 +113,6 @@ namespace MaterialUI
 					thisRectTransform.anchoredPosition = Anim.Quint.Out(currentPos, new Vector2(minPosition, thisRectTransform.anchoredPosition.y), animDeltaTime, animationDuration);
 
 					backgroundCanvasGroup.alpha = Anim.Quint.Out(currentBackgroundAlpha, 0f, animDeltaTime, animationDuration);
-					shadowCanvasGroup.alpha = Anim.Quint.In(currentShadowAlpha, 0f, animDeltaTime, animationDuration);
 				}
 				else
 				{
@@ -143,7 +138,6 @@ namespace MaterialUI
 			thisRectTransform.position = tempVector2;
 
 			backgroundCanvasGroup.alpha = 1 - (maxPosition - thisRectTransform.anchoredPosition.x) / (maxPosition - minPosition);
-			shadowCanvasGroup.alpha = 1 - (maxPosition - thisRectTransform.anchoredPosition.x) / ((maxPosition - minPosition) * 2);
 		}
 
 		public void OnEndDrag(PointerEventData data)
