@@ -9,6 +9,7 @@ public class ChangeToCar : MonoBehaviour {
 	public GameObject player;
 	public Transform carCam;
 	public Transform playerCam;
+	public GameObject carTrigger;
 
 	// Use this for initialization
 	void Start () {
@@ -22,7 +23,7 @@ public class ChangeToCar : MonoBehaviour {
 
 	public void SetCar(bool enabled){
 		if (enabled) {
-			// spawn the car on the player
+			player.transform.position = car.transform.position;
 			car.GetComponent<UnityStandardAssets.Vehicles.Car.CarUserControl> ().inputEnabled = true;
 			player.SetActive (false);
 			#if PLATFORM_ANDROID
@@ -30,6 +31,7 @@ public class ChangeToCar : MonoBehaviour {
 			#else
 			camera.GetComponent<UserCameraControl> ().target = carCam;
 			#endif
+			carTrigger.SetActive (true);
 		} else {
 			// Move the player to the car location
 			player.transform.position = car.transform.position;
@@ -40,6 +42,7 @@ public class ChangeToCar : MonoBehaviour {
 			#else
 			camera.GetComponent<UserCameraControl> ().target = playerCam;
 			#endif
+			carTrigger.SetActive (false);
 		}
 	}
 }

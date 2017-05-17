@@ -121,8 +121,21 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 		void UpdateAnimator(Vector3 move)
 		{
 			// update the animator parameters
-			m_Animator.SetFloat("Speed", m_ForwardAmount, 0.2f, Time.deltaTime);
-			m_Animator.SetFloat("Turn", m_TurnAmount, 0.1f, Time.deltaTime);
+			m_Animator.SetFloat("Forward", m_ForwardAmount, 0.2f, Time.deltaTime);
+			if (GameObject.FindGameObjectWithTag ("MainCamera").GetComponent<UserCameraControl> () == null) {
+				if (GameObject.FindGameObjectWithTag ("MainCamera").GetComponent<UserCameraControlMP> ().isDown) {
+					m_Animator.SetFloat ("Strafe", m_TurnAmount, 0.1f, Time.deltaTime);
+				} else {
+					m_Animator.SetFloat ("Strafe", 0.0f, 0.1f, Time.deltaTime);
+				}
+			} else {
+				if (GameObject.FindGameObjectWithTag ("MainCamera").GetComponent<UserCameraControl> ().isDown) {
+					m_Animator.SetFloat ("Strafe", m_TurnAmount, 0.1f, Time.deltaTime);
+				} else {
+					m_Animator.SetFloat ("Strafe", 0.0f, 0.1f, Time.deltaTime);
+				}
+			}
+
 			m_Animator.SetBool("Crouch", m_Crouching);
 			m_Animator.SetBool("OnGround", m_IsGrounded);
 			if (!m_IsGrounded)

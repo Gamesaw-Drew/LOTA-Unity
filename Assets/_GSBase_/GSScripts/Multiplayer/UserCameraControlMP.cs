@@ -60,13 +60,11 @@ public class UserCameraControlMP : NetworkBehaviour{
 
 			if (distance < distanceMin) {
 				negDistance = new Vector3(0f, 0.0f, 0);
-				headMesh.GetComponent<SkinnedMeshRenderer> ().enabled = false;
 				shouldMove = true;
 				isDown = true;
 				isFirstPerson = true;
 			} else {
 				negDistance = new Vector3(0.5f, 0.0f, -distance);
-				headMesh.GetComponent<SkinnedMeshRenderer> ().enabled = true;
 				if (Input.GetAxis ("Fire2") != 0) {
 					shouldMove = true;
 					isDown = true;

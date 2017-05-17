@@ -22,6 +22,7 @@ public class PauseMenu : MonoBehaviour {
 	public void pauseGame()
 	{
 		this.transform.GetChild(1).gameObject.SetActive(true);
+		this.transform.GetChild (1).GetComponent<Animator> ().SetTrigger ("Open");
 		Time.timeScale = 0.0F;
 	}
 	

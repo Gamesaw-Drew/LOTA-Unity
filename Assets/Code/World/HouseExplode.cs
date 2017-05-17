@@ -17,10 +17,9 @@ public class HouseExplode : MonoBehaviour {
 	public void Explode()
 	{
 		Vector3 pos = new Vector3 (-6, 2, -0);
-		foreach(Rigidbody block in GetComponentsInChildren<Rigidbody> ())
+		foreach(BuildingBlock block in GetComponentsInChildren<BuildingBlock> ())
 		{
-			block.isKinematic = false;
-			block.velocity = transform.TransformDirection(new Vector3(Random.Range(0.0f, 5.0f), 5f, Random.Range(0.0f, 5.0f))); 
+			block.Explode ();
 		}
 	}
 }

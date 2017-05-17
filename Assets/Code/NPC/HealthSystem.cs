@@ -30,6 +30,13 @@ public class HealthSystem : MonoBehaviour {
 
 	IEnumerator kill(){
 		yield return new WaitForSeconds (1);
+		Collider[] colliders = Physics.OverlapSphere (transform.position, 5);
+		foreach (Collider col in colliders) {
+			BuildingBlock block = col.GetComponent<BuildingBlock> ();
+			if (block) {
+				block.Explode ();
+			}
+		}
 		Destroy(gameObject);
 	}
 }

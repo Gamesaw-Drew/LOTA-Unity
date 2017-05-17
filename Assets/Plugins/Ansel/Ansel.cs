@@ -128,7 +128,7 @@ namespace NVIDIA
     {
       if(!IsAvailable)
       {
-        print("Ansel not available on this platform");
+        Debug.LogError("Ansel is not available or enabled on this platform. Did you forget to whitelist your executable?");
         return;
       }
 
@@ -180,7 +180,7 @@ namespace NVIDIA
     {
       if (!IsAvailable)
       {
-        Debug.LogError("Ansel is not available");
+        Debug.LogError("Ansel is not available or enabled on this platform. Did you forget to whitelist your executable?");
         return;
       }
 
@@ -197,7 +197,7 @@ namespace NVIDIA
     {
       if (!IsAvailable)
       {
-        Debug.LogError("Ansel is not available");
+        Debug.LogError("Ansel is not available or enabled on this platform. Did you forget to whitelist your executable?");
         return;
       }
 

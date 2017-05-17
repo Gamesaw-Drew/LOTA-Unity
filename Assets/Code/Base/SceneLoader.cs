@@ -7,6 +7,7 @@ public class SceneLoader : MonoBehaviour {
 private AsyncOperation async = null; // When assigned, load is in progress.
 public string SceneName;
 public Canvas loadingCanvas;
+	public Image progressBar;
 
     public void StartLoading()
     {
@@ -24,6 +25,8 @@ public Canvas loadingCanvas;
 		{
 			// [0, 0.9] > [0, 1]
 			float progress = Mathf.Clamp01(async.progress / 0.9f);
+			async.priority = 0;
+			progressBar.fillAmount = progress;
 
 			loadingCanvas.enabled = true;
             
@@ -40,8 +43,5 @@ public Canvas loadingCanvas;
 		{
 			loadingCanvas.enabled = false;
 		}
-		//SceneManager.LoadScene (SceneName);
-		//loadingCanvas.enabled = false;
-
 	}
 }

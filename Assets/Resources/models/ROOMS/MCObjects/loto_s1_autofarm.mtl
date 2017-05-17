@@ -1,0 +1,228 @@
+Wavefront OBJ material file
+# Contains 20 materials
+
+newmtl Stone
+# Ns 0
+# Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+# map_Ka loto_s1_autofarm-RGB.png
+map_Kd loto_s1_autofarm-RGB.png
+# illum 2
+# d 1
+# Tr 1
+
+newmtl Dirt
+# Ns 0
+# Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+# map_Ka loto_s1_autofarm-RGB.png
+map_Kd loto_s1_autofarm-RGB.png
+# illum 2
+# d 1
+# Tr 1
+
+newmtl Grass_Block
+# Ns 0
+# Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+# map_Ka loto_s1_autofarm-RGB.png
+map_Kd loto_s1_autofarm-RGB.png
+# illum 2
+# d 1
+# Tr 1
+
+newmtl Grass
+# Ns 0
+# Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+# map_Ka loto_s1_autofarm-RGBA.png
+map_Kd loto_s1_autofarm-RGBA.png
+map_d loto_s1_autofarm-Alpha.png
+# illum 2
+# d 1
+# Tr 1
+
+newmtl Glowstone
+# Ns 0
+# Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+Ke 1 1 1
+# map_Ka loto_s1_autofarm-RGB.png
+map_Kd loto_s1_autofarm-RGB.png
+map_Ke loto_s1_autofarm-RGB.png
+# illum 2
+# d 1
+# Tr 1
+
+newmtl Stationary_Water
+# Ns 0
+# Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+# map_Ka loto_s1_autofarm-RGBA.png
+map_Kd loto_s1_autofarm-RGBA.png
+map_d loto_s1_autofarm-Alpha.png
+# illum 4
+# d 0.535
+# Tr 0.535
+# Tf 0.465 0.465 0.465
+
+newmtl Gravel
+# Ns 0
+# Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+# map_Ka loto_s1_autofarm-RGB.png
+map_Kd loto_s1_autofarm-RGB.png
+# illum 2
+# d 1
+# Tr 1
+
+newmtl Chest
+# Ns 0
+# Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+# map_Ka loto_s1_autofarm-RGB.png
+map_Kd loto_s1_autofarm-RGB.png
+# illum 2
+# d 1
+# Tr 1
+
+newmtl Stone_Slab
+# Ns 0
+# Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+# map_Ka loto_s1_autofarm-RGB.png
+map_Kd loto_s1_autofarm-RGB.png
+# illum 2
+# d 1
+# Tr 1
+
+newmtl Nether_Brick_Fence
+# Ns 0
+# Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+# map_Ka loto_s1_autofarm-RGB.png
+map_Kd loto_s1_autofarm-RGB.png
+# illum 2
+# d 1
+# Tr 1
+
+newmtl Nether_Brick
+# Ns 0
+# Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+# map_Ka loto_s1_autofarm-RGB.png
+map_Kd loto_s1_autofarm-RGB.png
+# illum 2
+# d 1
+# Tr 1
+
+newmtl Redstone_Wire
+# Ns 0
+# Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+# map_Ka loto_s1_autofarm-RGB.png
+map_Kd loto_s1_autofarm-RGB.png
+# illum 2
+# d 1
+# Tr 1
+
+newmtl Hopper
+# Ns 0
+# Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+# map_Ka loto_s1_autofarm-RGB.png
+map_Kd loto_s1_autofarm-RGB.png
+# illum 2
+# d 1
+# Tr 1
+
+newmtl Wall_Sign
+# Ns 0
+# Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+# map_Ka loto_s1_autofarm-RGB.png
+map_Kd loto_s1_autofarm-RGB.png
+# illum 2
+# d 1
+# Tr 1
+
+newmtl Redstone_Repeater_(off)
+# Ns 0
+# Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+# map_Ka loto_s1_autofarm-RGB.png
+map_Kd loto_s1_autofarm-RGB.png
+# illum 2
+# d 1
+# Tr 1
+
+newmtl Stone_Button
+# Ns 0
+# Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+# map_Ka loto_s1_autofarm-RGB.png
+map_Kd loto_s1_autofarm-RGB.png
+# illum 2
+# d 1
+# Tr 1
+
+newmtl Farmland
+# Ns 0
+# Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+# map_Ka loto_s1_autofarm-RGB.png
+map_Kd loto_s1_autofarm-RGB.png
+# illum 2
+# d 1
+# Tr 1
+
+newmtl Wheat
+# Ns 0
+# Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+# map_Ka loto_s1_autofarm-RGBA.png
+map_Kd loto_s1_autofarm-RGBA.png
+map_d loto_s1_autofarm-Alpha.png
+# illum 2
+# d 1
+# Tr 1
+
+newmtl Dispenser
+# Ns 0
+# Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+# map_Ka loto_s1_autofarm-RGB.png
+map_Kd loto_s1_autofarm-RGB.png
+# illum 2
+# d 1
+# Tr 1
+
+newmtl Double_Stone_Slab
+# Ns 0
+# Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+# map_Ka loto_s1_autofarm-RGB.png
+map_Kd loto_s1_autofarm-RGB.png
+# illum 2
+# d 1
+# Tr 1
