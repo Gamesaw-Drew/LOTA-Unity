@@ -25,8 +25,8 @@ public Canvas loadingCanvas;
 		{
 			// [0, 0.9] > [0, 1]
 			float progress = Mathf.Clamp01(async.progress / 0.9f);
-			async.priority = 0;
 			progressBar.fillAmount = progress;
+			progressBar.transform.GetChild (0).GetComponent<TMPro.TextMeshProUGUI> ().text = progress * 100 + "%";
 
 			loadingCanvas.enabled = true;
             

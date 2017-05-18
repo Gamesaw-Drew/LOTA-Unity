@@ -51,7 +51,7 @@ public class GSCharacterUserInput_Singleplayer : MonoBehaviour {
 			transform.Translate(Vector3.back * -1 * v * this.WalkSpeed*Time.deltaTime);
 		}
 		if (camera.GetComponent<UserCameraControl>().isDown) {
-			if (!GetComponent<Animator> ().GetBool ("IsAiming")) {
+			if (!GetComponent<Animator> ().GetBool ("IsAiming") && GetComponent<LocalAvatar>().Inventory_hasGun) {
 				GetComponent<Animator> ().SetBool ("IsAiming", true);
 				Debug.Log ("ISAIM");
 			}

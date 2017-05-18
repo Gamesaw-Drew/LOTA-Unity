@@ -2,6 +2,7 @@
 using System.Collections;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using UnityEngine.Networking;
 
 public class PauseMenu : MonoBehaviour {
 
@@ -34,6 +35,7 @@ public class PauseMenu : MonoBehaviour {
 	
 	public void quitGame()
 	{
+		GameObject.FindObjectOfType<NetworkManager> ().StopClient();
 		Time.timeScale = 1.0F;
 	}
 }
