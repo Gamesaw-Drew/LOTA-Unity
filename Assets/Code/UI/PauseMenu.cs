@@ -35,7 +35,10 @@ public class PauseMenu : MonoBehaviour {
 	
 	public void quitGame()
 	{
-		GameObject.FindObjectOfType<NetworkManager> ().StopClient();
+		NetworkManager mgr = GameObject.FindObjectOfType<NetworkManager> ();
+		if (mgr) {
+			mgr.StopClient ();
+		}
 		Time.timeScale = 1.0F;
 	}
 }

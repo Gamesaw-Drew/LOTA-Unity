@@ -17,7 +17,7 @@ public class HorizontalFollow : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	private void LateUpdate()
+	private void FixedUpdate()
 	{
 		if (heightFromTarget) {
 			height = target.position.y + heightOffset;
