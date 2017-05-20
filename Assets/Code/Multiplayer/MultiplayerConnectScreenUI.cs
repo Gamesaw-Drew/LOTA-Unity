@@ -11,7 +11,7 @@ public class MultiplayerConnectScreenUI : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
+		manager = GameObject.Find ("Network(Clone)").GetComponent<NetworkManager>();	
 	}
 	
 	// Update is called once per frame
@@ -32,5 +32,9 @@ public class MultiplayerConnectScreenUI : MonoBehaviour {
 
 	public void startServer(){
 		manager.StartServer ();
+	}
+
+	public void Kill(){
+		DestroyImmediate (this.gameObject);
 	}
 }

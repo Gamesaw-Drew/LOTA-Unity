@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-
+using UnityEngine.SceneManagement;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -37,11 +37,13 @@ public class GSConsole {
 		
 	public GSConsole() {
 		registerCommand ("explodehouse", explodeHouse, "Explodes chris's house (xd).");
-		registerCommand("echo", echo, "Print a message to the console.");
-		registerCommand("help", help, "Shows commands");
-		registerCommand("hide", hide, "Hide the console.");
-		registerCommand("reload", reload, "Reload game.");
-		registerCommand("resetprefs", resetPrefs, "Resets the Player Preferences.");
+		registerCommand ("echo", echo, "Print a message to the console.");
+		registerCommand ("help", help, "Shows commands");
+		registerCommand ("hide", hide, "Hide the console.");
+		registerCommand ("reload", reload, "Reload game.");
+		registerCommand ("resetprefs", resetPrefs, "Resets the Player Preferences.");
+		registerCommand ("scene", loadLevel, "Loads the specified scene.");
+		registerCommand ("scenes", listLevels, "Shows all available scenes that can be loaded using scene command.");
 	}
 	
 	void registerCommand(string command, CommandHandler handler, string help) {
@@ -145,12 +147,20 @@ public class GSConsole {
 	}
 
 	void reload(string[] args) {
-		Application.LoadLevel(Application.loadedLevel);
+		SceneManager.LoadScene (SceneManager.GetActiveScene().name);
 	}
 	
 	void resetPrefs(string[] args) {
 		PlayerPrefs.DeleteAll();
 		PlayerPrefs.Save();
+	}
+
+	void loadLevel(string[] args){
+		SceneManager.LoadScene (args [0]);
+	}
+
+	void listLevels(string[] args){
+		appendLogLine ("Available scenes are: MainMenu; MainMenu_Mobile; LXUITest; Scene1; Introduction; MultiplayerConnectScreen; Multiplayer2");
 	}
 
 	#endregion

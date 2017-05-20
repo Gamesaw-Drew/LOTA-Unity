@@ -17,9 +17,9 @@ namespace MaterialUI
 	{
 		public string text = "This is a toast";
 		public float duration = 1.5f;
-		public Color panelColor = new Color (1f, 1f, 1f);
-		public Color textColor = new Color (0.15f, 0.15f, 0.15f);
-		public int fontSize = 16;
+		public Color panelColor = new Color (0.313f, 0.313f, 0.313f);
+		public Color textColor = new Color (1f, 1f, 1f);
+		public int fontSize = 26;
 
 		void Start ()
 		{
